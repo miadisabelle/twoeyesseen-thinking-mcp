@@ -1,12 +1,12 @@
-# Sequential Thinking MCP Server - LangGPT Demo
+# Two-Eyed Seen Thinking MCP Server - miadisabelle
 
-[![NPM Version](https://img.shields.io/npm/v/@langgpt/sequential-thinking-mcp.svg)](https://www.npmjs.com/package/@langgpt/sequential-thinking-mcp)
-[![Docker Hub](https://img.shields.io/docker/pulls/langgpt/sequential-thinking-mcp.svg)](https://hub.docker.com/r/langgpt/sequential-thinking-mcp)
+[![NPM Version](https://img.shields.io/npm/v/twoeyesseen-thinking-mcp.svg)](https://www.npmjs.com/package/twoeyesseen-thinking-mcp)
+[![Docker Hub](https://img.shields.io/docker/pulls/miadisabelle/twoeyesseen-thinking-mcp.svg)](https://hub.docker.com/r/miadisabelle/twoeyesseen-thinking-mcp)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-> **Note**: This is a demonstration version by LangGPT, based on the original Sequential Thinking MCP Server from Anthropic's Model Context Protocol. This demo showcases how to extend and publish MCP servers for the Claude ecosystem.
+> **Note**: This MCP server integrates Two-Eyed Seeing for dynamic and reflective problem-solving, blending Western sequential thinking with Indigenous holistic wisdom and ceremonial protocols. It is inspired by the Chimera Storyform and Narrative Context Protocol.
 
-An MCP server implementation that provides a tool for dynamic and reflective problem-solving through a structured thinking process. This server enables Claude to break down complex problems into manageable, trackable steps with support for revision and branching.
+An MCP server implementation that provides a tool for dynamic and reflective problem-solving through a structured thinking process. This server enables AI agents to break down complex problems into manageable, trackable steps with support for revision and branching, now enriched with holistic perspectives.
 
 ## Features
 
@@ -18,7 +18,7 @@ An MCP server implementation that provides a tool for dynamic and reflective pro
 
 ## Tool
 
-### sequential_thinking
+### twoeyesseen_thinking
 
 Facilitates a detailed, step-by-step thinking process for problem-solving and analysis.
 
@@ -52,9 +52,9 @@ Add this to your `claude_desktop_config.json`:
 ```json
 {
   "mcpServers": {
-    "sequential-thinking": {
+    "twoeyesseen-thinking": {
       "command": "npx",
-      "args": ["-y", "@langgpt/sequential-thinking-mcp"]
+      "args": ["-y", "twoeyesseen-thinking-mcp"]
     }
   }
 }
@@ -65,13 +65,13 @@ Add this to your `claude_desktop_config.json`:
 ```json
 {
   "mcpServers": {
-    "sequential-thinking": {
+    "twoeyesseen-thinking": {
       "command": "docker",
       "args": [
         "run",
         "--rm", 
         "-i",
-        "langgpt/sequential-thinking-mcp"
+        "miadisabelle/twoeyesseen-thinking-mcp"
       ]
     }
   }
@@ -80,16 +80,16 @@ Add this to your `claude_desktop_config.json`:
 
 After adding the configuration, restart Claude Desktop and try asking:
 ```
-Please use the sequential thinking tool to analyze this complex problem step by step.
+Please use the twoeyesseen thinking tool to analyze this complex problem step by step.
 ```
 
 ### Usage with VS Code
 
 For quick installation, click one of the installation buttons below...
 
-[![Install with NPX in VS Code](https://img.shields.io/badge/VS_Code-NPM-0098FF?style=flat-square&logo=visualstudiocode&logoColor=white)](https://insiders.vscode.dev/redirect/mcp/install?name=sequentialthinking&config=%7B%22command%22%3A%22npx%22%2C%22args%22%3A%5B%22-y%22%2C%22%40modelcontextprotocol%2Fserver-sequential-thinking%22%5D%7D) [![Install with NPX in VS Code Insiders](https://img.shields.io/badge/VS_Code_Insiders-NPM-24bfa5?style=flat-square&logo=visualstudiocode&logoColor=white)](https://insiders.vscode.dev/redirect/mcp/install?name=sequentialthinking&config=%7B%22command%22%3A%22npx%22%2C%22args%22%3A%5B%22-y%22%2C%22%40modelcontextprotocol%2Fserver-sequential-thinking%22%5D%7D&quality=insiders)
+[![Install with NPX in VS Code](https://img.shields.io/badge/VS_Code-NPM-0098FF?style=flat-square&logo=visualstudiocode&logoColor=white)](https://insiders.vscode.dev/redirect/mcp/install?name=twoeyesseenthinking&config=%7B%22command%22%3A%22npx%22%2C%22args%22%3A%5B%22-y%22%2C%22twoeyesseen-thinking-mcp%22%5D%7D) [![Install with NPX in VS Code Insiders](https://img.shields.io/badge/VS_Code_Insiders-NPM-24bfa5?style=flat-square&logo=visualstudiocode&logoColor=white)](https://insiders.vscode.dev/redirect/mcp/install?name=twoeyesseenthinking&config=%7B%22command%22%3A%22npx%22%2C%22args%22%3A%5B%22-y%22%2C%22twoeyesseen-thinking-mcp%22%5D%7D&quality=insiders)
 
-[![Install with Docker in VS Code](https://img.shields.io/badge/VS_Code-Docker-0098FF?style=flat-square&logo=visualstudiocode&logoColor=white)](https://insiders.vscode.dev/redirect/mcp/install?name=sequentialthinking&config=%7B%22command%22%3A%22docker%22%2C%22args%22%3A%5B%22run%22%2C%22--rm%22%2C%22-i%22%2C%22mcp%2Fsequentialthinking%22%5D%7D) [![Install with Docker in VS Code Insiders](https://img.shields.io/badge/VS_Code_Insiders-Docker-24bfa5?style=flat-square&logo=visualstudiocode&logoColor=white)](https://insiders.vscode.dev/redirect/mcp/install?name=sequentialthinking&config=%7B%22command%22%3A%22docker%22%2C%22args%22%3A%5B%22run%22%2C%22--rm%22%2C%22-i%22%2C%22mcp%2Fsequentialthinking%22%5D%7D&quality=insiders)
+[![Install with Docker in VS Code](https://img.shields.io/badge/VS_Code-Docker-0098FF?style=flat-square&logo=visualstudiocode&logoColor=white)](https://insiders.vscode.dev/redirect/mcp/install?name=twoeyesseenthinking&config=%7B%22command%22%3A%22docker%22%2C%22args%22%3A%5B%22run%22%2C%22--rm%22%2C%22-i%22%2C%22miadisabelle%2Ftwoeyesseen-thinking-mcp%22%5D%7D) [![Install with Docker in VS Code Insiders](https://img.shields.io/badge/VS_Code_Insiders-Docker-24bfa5?style=flat-square&logo=visualstudiocode&logoColor=white)](https://insiders.vscode.dev/redirect/mcp/install?name=twoeyesseenthinking&config=%7B%22command%22%3A%22docker%22%2C%22args%22%3A%5B%22run%22%2C%22--rm%22%2C%22-i%22%2C%22miadisabelle%2Ftwoeyesseen-thinking-mcp%22%5D%7D&quality=insiders)
 
 For manual installation, add the following JSON block to your User Settings (JSON) file in VS Code. You can do this by pressing `Ctrl + Shift + P` and typing `Preferences: Open Settings (JSON)`.
 
@@ -103,11 +103,11 @@ For NPX installation:
 {
   "mcp": {
     "servers": {
-      "sequential-thinking": {
+      "twoeyesseen-thinking": {
         "command": "npx",
         "args": [
           "-y",
-          "@modelcontextprotocol/server-sequential-thinking"
+          "twoeyesseen-thinking-mcp"
         ]
       }
     }
@@ -121,13 +121,13 @@ For Docker installation:
 {
   "mcp": {
     "servers": {
-      "sequential-thinking": {
+      "twoeyesseen-thinking": {
         "command": "docker",
         "args": [
           "run",
           "--rm",
           "-i",
-          "mcp/sequentialthinking"
+          "miadisabelle/twoeyesseen-thinking-mcp"
         ]
       }
     }
@@ -140,7 +140,7 @@ For Docker installation:
 Docker:
 
 ```bash
-docker build -t mcp/sequentialthinking -f src/sequentialthinking/Dockerfile .
+docker build -t miadisabelle/twoeyesseen-thinking-mcp -f src/sequentialthinking/Dockerfile .
 ```
 
 ## Local Development and Configuration
@@ -188,7 +188,7 @@ If you want to use this MCP server from local source code, follow these steps:
    ```json
    {
      "mcpServers": {
-       "sequential-thinking": {
+       "twoeyesseen-thinking": {
          "command": "node",
          "args": ["/your/absolute/path/to/project/dist/index.js"],
          "env": {
@@ -209,7 +209,7 @@ If you want to use this MCP server from local source code, follow these steps:
    
    Test in Claude with something like:
    ```
-   Please use the sequential thinking tool to analyze a complex problem
+   Please use the twoeyesseen thinking tool to analyze a complex problem
    ```
 
 ### Tool Features
@@ -244,22 +244,29 @@ This section provides guidance for developers who want to publish their own vers
    Modify the package configuration for your own project:
    ```json
    {
-     "name": "@langgpt/sequential-thinking-mcp",
+     "name": "twoeyesseen-thinking-mcp",
      "version": "1.0.0",
-     "description": "MCP server for sequential thinking and problem solving",
-     "author": "LangGPT <contact@langgpt.dev>",
-     "homepage": "https://github.com/langgpt/sequential-thinking-mcp",
-     "bugs": "https://github.com/langgpt/sequential-thinking-mcp/issues",
+     "description": "MCP server integrating Two-Eyed Seeing for dynamic and reflective problem-solving, blending Western sequential thinking with Indigenous holistic wisdom and ceremonial protocols. Inspired by the Chimera Storyform and Narrative Context Protocol.",
+     "author": "miadisabelle",
+     "homepage": "https://github.com/miadisabelle/twoeyesseen-thinking-mcp",
+     "bugs": "https://github.com/miadisabelle/twoeyesseen-thinking-mcp/issues",
      "repository": {
        "type": "git",
-       "url": "git+https://github.com/langgpt/sequential-thinking-mcp.git"
+       "url": "git+https://github.com/miadisabelle/twoeyesseen-thinking-mcp.git"
      },
      "keywords": [
        "mcp",
        "model-context-protocol",
        "claude",
        "thinking",
-       "ai-tools"
+       "ai-tools",
+       "twoeyesseen",
+       "chimera",
+       "storyform",
+       "holistic",
+       "narrative",
+       "indigenous-knowledge",
+       "ceremonial-protocols"
      ]
    }
    ```
@@ -293,22 +300,22 @@ This section provides guidance for developers who want to publish their own vers
 
 1. **Build Docker image**
    ```bash
-   docker build -t langgpt/sequential-thinking-mcp .
+   docker build -t miadisabelle/twoeyesseen-thinking-mcp .
    ```
 
 2. **Test the image**
    ```bash
-   docker run --rm -i langgpt/sequential-thinking-mcp
+   docker run --rm -i miadisabelle/twoeyesseen-thinking-mcp
    ```
 
 3. **Push to Docker Hub**
    ```bash
    docker login
-   docker push langgpt/sequential-thinking-mcp
+   docker push miadisabelle/twoeyesseen-thinking-mcp
    
    # Also push with version tag
-   docker tag langgpt/sequential-thinking-mcp langgpt/sequential-thinking-mcp:1.0.0
-   docker push langgpt/sequential-thinking-mcp:1.0.0
+   docker tag miadisabelle/twoeyesseen-thinking-mcp miadisabelle/twoeyesseen-thinking-mcp:1.0.0
+   docker push miadisabelle/twoeyesseen-thinking-mcp:1.0.0
    ```
 
 ### Publishing to GitHub
@@ -322,7 +329,7 @@ This section provides guidance for developers who want to publish their own vers
 
 2. **Push to GitHub**
    ```bash
-   git remote add origin https://github.com/langgpt/sequential-thinking-mcp.git
+   git remote add origin https://github.com/miadisabelle/twoeyesseen-thinking-mcp.git
    git push -u origin main
    ```
 
@@ -339,9 +346,9 @@ Once published, users can install and use your MCP server in the following ways:
 ```json
 {
   "mcpServers": {
-    "sequential-thinking": {
+    "twoeyesseen-thinking": {
       "command": "npx",
-      "args": ["-y", "@langgpt/sequential-thinking-mcp"]
+      "args": ["-y", "twoeyesseen-thinking-mcp"]
     }
   }
 }
@@ -351,13 +358,13 @@ Once published, users can install and use your MCP server in the following ways:
 ```json
 {
   "mcpServers": {
-    "sequential-thinking": {
+    "twoeyesseen-thinking": {
       "command": "docker",
       "args": [
         "run",
         "--rm",
         "-i",
-        "langgpt/sequential-thinking-mcp"
+        "miadisabelle/twoeyesseen-thinking-mcp"
       ]
     }
   }
@@ -368,11 +375,11 @@ Once published, users can install and use your MCP server in the following ways:
 ```json
 {
   "mcpServers": {
-    "sequential-thinking": {
+    "twoeyesseen-thinking": {
       "command": "npx",
       "args": [
         "-y",
-        "https://github.com/langgpt/sequential-thinking-mcp#main"
+        "https://github.com/miadisabelle/twoeyesseen-thinking-mcp#main"
       ]
     }
   }

@@ -1,14 +1,14 @@
 {
-  "name": "@langgpt/sequential-thinking-mcp",
+  "name": "twoeyesseen-thinking-mcp",
   "version": "1.0.1",
-  "description": "LangGPT Demo: MCP server for sequential thinking and problem solving based on Anthropic's original implementation",
+  "description": "MCP server integrating Two-Eyed Seeing for dynamic and reflective problem-solving, blending Western sequential thinking with Indigenous holistic wisdom and ceremonial protocols. Inspired by the Chimera Storyform and Narrative Context Protocol.",
   "license": "MIT",
-  "author": "LangGPT <contact@langgpt.ai>",
-  "homepage": "https://github.com/langgpt/sequential-thinking-mcp",
-  "bugs": "https://github.com/langgpt/sequential-thinking-mcp/issues",
+  "author": "miadisabelle",
+  "homepage": "https://github.com/miadisabelle/twoeyesseen-thinking-mcp",
+  "bugs": "https://github.com/miadisabelle/twoeyesseen-thinking-mcp/issues",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/langgpt/sequential-thinking-mcp.git"
+    "url": "git+https://github.com/miadisabelle/twoeyesseen-thinking-mcp.git"
   },
   "keywords": [
     "mcp",
@@ -16,13 +16,17 @@
     "claude",
     "thinking",
     "ai-tools",
-    "langgpt",
-    "demo",
-    "anthropic"
+    "twoeyesseen",
+    "chimera",
+    "storyform",
+    "holistic",
+    "narrative",
+    "indigenous-knowledge",
+    "ceremonial-protocols"
   ],
   "type": "module",
   "bin": {
-    "sequential-thinking-mcp": "dist/index.js"
+    "twoeyesseen-thinking-mcp": "dist/index.js"
   },
   "files": [
     "dist",
