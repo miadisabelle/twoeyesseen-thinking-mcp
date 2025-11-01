@@ -1,10 +1,26 @@
 # Two-Eyed Seen Thinking MCP Server - miadisabelle
 
+> ## 🛑 CEREMONIAL PAUSE - Phase 0 Active
+>
+> **This project is NOT in active development.** We are in **Phase 0: Community Relationship Establishment** (Nov 1 - Dec 21, 2025).
+>
+> **Why:** The holistic thinking artifacts were designed *about* Indigenous knowledge systems before establishing relationship *with* Indigenous communities. We entered a ceremonial pause to establish proper co-creative partnerships before any implementation proceeds.
+>
+> **Current work:** Seeking 2-3 Indigenous knowledge holders willing to serve as ceremonial advisors and co-creators.
+>
+> **Next milestone:** Winter Solstice Ceremony (Dec 21, 2025) - Receive guidance on whether to proceed.
+>
+> **Learn more:** [Ceremonial Protocols](./docs/CEREMONIAL_PROTOCOLS.md) | [Phase 0 Status](./docs/PHASE_0_STATUS.md) | [Ceremonial Review Dialogue](./docs/holistic/251031_Mia_Anikwag_Ceremonial_Review.md)
+>
+> *All my relations. We wait with intention.*
+
 [![NPM Version](https://img.shields.io/npm/v/twoeyesseen-thinking-mcp.svg)](https://www.npmjs.com/package/twoeyesseen-thinking-mcp)
 [![Docker Hub](https://img.shields.io/docker/pulls/miadisabelle/twoeyesseen-thinking-mcp.svg)](https://hub.docker.com/r/miadisabelle/twoeyesseen-thinking-mcp)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+![Phase](https://img.shields.io/badge/Phase-0%20Ceremonial%20Pause-orange)
+![Status](https://img.shields.io/badge/Status-Community%20Relationship%20Building-blue)
 
-> **Note**: This MCP server integrates Two-Eyed Seeing for dynamic and reflective problem-solving, blending Western sequential thinking with Indigenous holistic wisdom and ceremonial protocols. It is inspired by the Chimera Storyform and Narrative Context Protocol.
+> **About**: This MCP server provides Sequential Thinking (Western Eye - implemented) and is preparing to integrate Holistic Thinking (Indigenous Eye - Phase 0 design) through **Two-Eyed Seeing (Etuaptmumk)** methodology. It blends Western sequential thinking with Indigenous holistic wisdom and ceremonial protocols. Inspired by the Chimera Storyform and Narrative Context Protocol.
 
 An MCP server implementation that provides a tool for dynamic and reflective problem-solving through a structured thinking process. This server enables AI agents to break down complex problems into manageable, trackable steps with support for revision and branching, now enriched with holistic perspectives.
 
