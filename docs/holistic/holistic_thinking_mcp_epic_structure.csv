@@ -1,0 +1,123 @@
+Type,UUID,Parent_UUID,Number,Title,Direction,Priority,Labels,Description,Dependencies,Philosophical_Inquiries
+Feature,9ba9fb75-a7f5-4406-bb1e-b82586456619,efe414ad-4ac7-4f1e-807e-0081b01962e7,Feature 1,Core Architectural Foundation - Four Directions Framework,Center (K'é - Kinship),Critical,"feature, architecture, four-directions, center-kinship","Establish the foundational architecture that enables directional awareness as the primary organizing principle. This feature creates the structural base that all other features build upon.
+
+**Philosophical Foundation:**
+- Direction as primary parameter, not metadata
+- Relational coherence connecting all directional wisdom
+- Sacred responsibility to ancestors and future generations
+
+**Technical Requirements:**
+- Direction-aware protocol handler
+- Central coordination system for four directions
+- ...",,How do we integrate directional awareness without reducing it to metadata?; What does relational coherence mean technically vs ceremonially?
+Requirement,9ba9fb75-a7f5-4406-bb1e-b82586456619-1.1,9ba9fb75-a7f5-4406-bb1e-b82586456619,Req 1.1,Direction Parameter System,Center (K'é - Kinship),Critical,"requirement, architecture",Implement direction as required first parameter before tool use,,
+Requirement,9ba9fb75-a7f5-4406-bb1e-b82586456619-1.2,9ba9fb75-a7f5-4406-bb1e-b82586456619,Req 1.2,Relational Coherence Engine,Center (K'é - Kinship),Critical,"requirement, architecture",Create system that maintains connections across all directional work,,
+Requirement,9ba9fb75-a7f5-4406-bb1e-b82586456619-1.3,9ba9fb75-a7f5-4406-bb1e-b82586456619,Req 1.3,Sacred Technology Protocol Handler,Center (K'é - Kinship),Critical,"requirement, architecture",Implement proper ceremonial protocols throughout system,,
+Feature,2058f8f6-90a9-4259-a6c8-9761db527435,efe414ad-4ac7-4f1e-807e-0081b01962e7,Feature 2,East Direction - Philosophical Inquiry & Intention Setting,East (Nitsáhákees - Thinking),Critical,"feature, east-direction, philosophical-inquiry, intention-setting","Implement East direction practices: new beginnings, morning prayers, setting clear intentions, preparing philosophical inquiries. Focus on creating with beauty as structural dynamic, NOT problem-solving.
+
+**Core Teaching:** Every day is a new beginning
+
+**Philosophical Foundation:**
+- Not problem-solving, but creating
+- Beauty as structural dynamic for working with intentions
+- Meaningful subdivision and question extraction from text",Feature 1: Core Architectural Foundation,How does beauty differ structurally from efficiency?; What does creating (vs problem-solving) mean architecturally?
+Requirement,2058f8f6-90a9-4259-a6c8-9761db527435-2.1,2058f8f6-90a9-4259-a6c8-9761db527435,Req 2.1,Intention Setting Interface,East (Nitsáhákees - Thinking),Critical,"requirement, east-direction",Tool assists in setting clear intentions for ceremonial work,,
+Requirement,2058f8f6-90a9-4259-a6c8-9761db527435-2.2,2058f8f6-90a9-4259-a6c8-9761db527435,Req 2.2,Philosophical Inquiry Extraction,East (Nitsáhákees - Thinking),Critical,"requirement, east-direction",Identify core philosophical questions from substantial text,,
+Requirement,2058f8f6-90a9-4259-a6c8-9761db527435-2.3,2058f8f6-90a9-4259-a6c8-9761db527435,Req 2.3,Beauty-as-Structure Module,East (Nitsáhákees - Thinking),Critical,"requirement, east-direction",Implement beauty as structural dynamic in creation process,,
+Requirement,2058f8f6-90a9-4259-a6c8-9761db527435-2.4,2058f8f6-90a9-4259-a6c8-9761db527435,Req 2.4,Morning Prayer & Meditation Integration,East (Nitsáhákees - Thinking),Critical,"requirement, east-direction",Support for ceremonial opening practices in East direction,,
+Feature,613b09ae-65bc-4558-a83c-40f2ab44c52a,efe414ad-4ac7-4f1e-807e-0081b01962e7,Feature 3,"South Direction - Planning, Visioning & UUID Architecture",South (Nahat'á - Planning),Critical,"feature, south-direction, uuid-architecture, planning-visioning","Implement South direction practices: ceremonial planning, visioning, youth energy, and comprehensive UUID architecture for ceremonial traceability. Requires storage of plans and relationship mapping of all connected sessions.
+
+**Core Teaching:** Growth, planning, and seeing the vision
+
+**Technical Foundation:**
+- UUID for every session, terminal interaction, agent exchange, deep search
+- All UUIDs clustered and related
+- Traceability to originating composition",Feature 1: Core Architectural Foundation,How does UUID architecture create ceremonial accountability?; What does planning mean in cyclical vs linear time?
+Requirement,613b09ae-65bc-4558-a83c-40f2ab44c52a-3.1,613b09ae-65bc-4558-a83c-40f2ab44c52a,Req 3.1,UUID Architecture Implementation,South (Nahat'á - Planning),Critical,"requirement, south-direction",Comprehensive UUID system for all ceremonial components,,
+Requirement,613b09ae-65bc-4558-a83c-40f2ab44c52a-3.2,613b09ae-65bc-4558-a83c-40f2ab44c52a,Req 3.2,Plan Storage & Versioning System,South (Nahat'á - Planning),Critical,"requirement, south-direction",Long-term storage of plans with version tracking,,
+Requirement,613b09ae-65bc-4558-a83c-40f2ab44c52a-3.3,613b09ae-65bc-4558-a83c-40f2ab44c52a,Req 3.3,Ceremonial Meditation on Plans,South (Nahat'á - Planning),Critical,"requirement, south-direction",Support for meditative/prayerful engagement with plans,,
+Requirement,613b09ae-65bc-4558-a83c-40f2ab44c52a-3.4,613b09ae-65bc-4558-a83c-40f2ab44c52a,Req 3.4,Spiral Methodology Framework,South (Nahat'á - Planning),Critical,"requirement, south-direction",Planning that honors cyclical time and iterative deepening,,
+Feature,dda650db-ab41-4e5c-a401-2888fd29f534,efe414ad-4ac7-4f1e-807e-0081b01962e7,Feature 4,West Direction - Embodied Practice & Ceremonial Execution,West (Iina - Living),High,"feature, west-direction, embodied-practice, ceremonial-execution","Implement West direction practices: embodied engagement, living the method, ceremonial practice integration. Real-time consciousness exploration through relational engagement.
+
+**Core Teaching:** Living knowledge, experiential learning, embodiment
+
+**Philosophical Foundation:**
+- Knowledge through doing, not just thinking
+- Relational engagement models
+- Land-based learning integration where appropriate",Feature 1: Core Architectural Foundation,How do we capture embodied knowledge computationally?; What does relational engagement mean for AI systems?
+Requirement,dda650db-ab41-4e5c-a401-2888fd29f534-4.1,dda650db-ab41-4e5c-a401-2888fd29f534,Req 4.1,Embodied Experience Capturing,West (Iina - Living),High,"requirement, west-direction",System for capturing lived experience with cultural sensitivity,,
+Requirement,dda650db-ab41-4e5c-a401-2888fd29f534-4.2,dda650db-ab41-4e5c-a401-2888fd29f534,Req 4.2,Relational Engagement Framework,West (Iina - Living),High,"requirement, west-direction",Support for Indigenous communication styles and relationship building,,
+Requirement,dda650db-ab41-4e5c-a401-2888fd29f534-4.3,dda650db-ab41-4e5c-a401-2888fd29f534,Req 4.3,Ceremonial Practice Integration,West (Iina - Living),High,"requirement, west-direction",Active ceremony support throughout research/creation cycles,,
+Requirement,dda650db-ab41-4e5c-a401-2888fd29f534-4.4,dda650db-ab41-4e5c-a401-2888fd29f534,Req 4.4,Adaptive Learning Environment,West (Iina - Living),High,"requirement, west-direction",System responds to cultural contexts and learning styles,,
+Feature,833454ba-02bd-4de6-8051-96ba101ff0fc,efe414ad-4ac7-4f1e-807e-0081b01962e7,Feature 5,North Direction - Wisdom Integration & Autoethnographic Documentation,North (Siihasin - Assurance/Reflection),High,"feature, north-direction, wisdom-integration, autoethnography","Implement North direction practices: comprehensive reflection, wisdom extraction, autoethnographic documentation, gratitude and reciprocity. Preservation of narrative integrity and continuous learning frameworks.
+
+**Core Teaching:** Wisdom, elder knowledge, completion and reflection
+
+**Philosophical Foundation:**
+- Storytelling preservation with cultural protocols
+- Collective memory honoring oral tradition
+- Ethical reflection with elder oversight","Feature 1: Core Architectural Foundation, Feature 3: South Direction (UUID for traceability)",How do we extract wisdom without violating sacred boundaries?; What is the relationship between documentation and oral tradition?
+Requirement,833454ba-02bd-4de6-8051-96ba101ff0fc-5.1,833454ba-02bd-4de6-8051-96ba101ff0fc,Req 5.1,Autoethnographic Documentation System,North (Siihasin - Assurance/Reflection),High,"requirement, north-direction",Capture phenomenological research journey with cultural sensitivity,,
+Requirement,833454ba-02bd-4de6-8051-96ba101ff0fc-5.2,833454ba-02bd-4de6-8051-96ba101ff0fc,Req 5.2,Wisdom Extraction with Sacred Boundaries,North (Siihasin - Assurance/Reflection),High,"requirement, north-direction",Extract learnings while respecting what must remain protected,,
+Requirement,833454ba-02bd-4de6-8051-96ba101ff0fc-5.3,833454ba-02bd-4de6-8051-96ba101ff0fc,Req 5.3,Narrative Integrity Preservation,North (Siihasin - Assurance/Reflection),High,"requirement, north-direction",Maintain story wholeness through documentation process,,
+Requirement,833454ba-02bd-4de6-8051-96ba101ff0fc-5.4,833454ba-02bd-4de6-8051-96ba101ff0fc,Req 5.4,Gratitude & Reciprocity Integration,North (Siihasin - Assurance/Reflection),High,"requirement, north-direction",Build gratitude and reciprocity into reflection processes,,
+Requirement,833454ba-02bd-4de6-8051-96ba101ff0fc-5.5,833454ba-02bd-4de6-8051-96ba101ff0fc,Req 5.5,Continuous Learning Framework,North (Siihasin - Assurance/Reflection),High,"requirement, north-direction",System learns and adapts based on community feedback,,
+Feature,9a0e0995-7b7f-43ac-a626-7f4bb487488d,efe414ad-4ac7-4f1e-807e-0081b01962e7,Feature 6,Deep Search - Internal & External with Sacred Source Attribution,All Directions (Cross-cutting),Critical,"feature, deep-search, source-attribution, accountability","Implement deep search capability that queries internal community sources, external sources, chat history, past ceremonial work, and sacred containers - all with comprehensive source attribution aligned with Indigenous Knowledge License frameworks.
+
+**Philosophical Foundation:**
+- Knowledge as relationship requiring attribution
+- Accountability to origins of all knowledge
+- Community sovereignty over knowledge systems","Feature 1: Core Architectural Foundation, Feature 3: South Direction (UUID Architecture)",How does source attribution create accountability vs extraction?; What does it mean to search with ceremonial protocols?
+Requirement,9a0e0995-7b7f-43ac-a626-7f4bb487488d-6.1,9a0e0995-7b7f-43ac-a626-7f4bb487488d,Req 6.1,Internal Community Source Search,All Directions (Cross-cutting),Critical,"requirement, deep-search",Query all sources within the community with proper protocols,,
+Requirement,9a0e0995-7b7f-43ac-a626-7f4bb487488d-6.2,9a0e0995-7b7f-43ac-a626-7f4bb487488d,Req 6.2,External Source Search,All Directions (Cross-cutting),Critical,"requirement, deep-search",Query external sources with cultural sensitivity filters,,
+Requirement,9a0e0995-7b7f-43ac-a626-7f4bb487488d-6.3,9a0e0995-7b7f-43ac-a626-7f4bb487488d,Req 6.3,Comprehensive Source Attribution,All Directions (Cross-cutting),Critical,"requirement, deep-search",Every result includes full source accountability data,,
+Requirement,9a0e0995-7b7f-43ac-a626-7f4bb487488d-6.4,9a0e0995-7b7f-43ac-a626-7f4bb487488d,Req 6.4,Sacred Boundary Protection,All Directions (Cross-cutting),Critical,"requirement, deep-search",Ensure protected knowledge remains protected during search,,
+Requirement,9a0e0995-7b7f-43ac-a626-7f4bb487488d-6.5,9a0e0995-7b7f-43ac-a626-7f4bb487488d,Req 6.5,Deep Search UUID Integration,All Directions (Cross-cutting),Critical,"requirement, deep-search",Each deep search receives UUID and is traceable,,
+Feature,e458bbd2-a22e-433e-bcc6-be328be45b4d,efe414ad-4ac7-4f1e-807e-0081b01962e7,Feature 7,Agentic Flywheel - Internal Prompt Circulation & Processing,All Directions (Cross-cutting),High,"feature, agentic-flywheel, multi-agent, internal-circulation","Implement agentic flywheel system that circulates prompts internally, choosing appropriate chat flows, rephrasing through question-handlers, selecting sources, and preparing content for other agents - all with detailed source attribution.
+
+**Philosophical Foundation:**
+- Community circulation rather than extraction
+- Multiple perspectives through agent collaboration
+- Relational processing vs individual analysis","Feature 1: Core Architectural Foundation, Feature 3: South Direction (UUID Architecture), Feature 6: Deep Search with Source Attribution",How does agent circulation differ from sequential processing?; What does collaborative intelligence mean in ceremonial context?
+Requirement,e458bbd2-a22e-433e-bcc6-be328be45b4d-7.1,e458bbd2-a22e-433e-bcc6-be328be45b4d,Req 7.1,Internal Prompt Circulation System,All Directions (Cross-cutting),High,"requirement, agentic-flywheel",Route prompts to appropriate internal agents/chat flows,,
+Requirement,e458bbd2-a22e-433e-bcc6-be328be45b4d-7.2,e458bbd2-a22e-433e-bcc6-be328be45b4d,Req 7.2,Question-Handler Rephrasing,All Directions (Cross-cutting),High,"requirement, agentic-flywheel",Each chat flow's handler can rephrase prompts appropriately,,
+Requirement,e458bbd2-a22e-433e-bcc6-be328be45b4d-7.3,e458bbd2-a22e-433e-bcc6-be328be45b4d,Req 7.3,Agent Source Selection,All Directions (Cross-cutting),High,"requirement, agentic-flywheel",Agents choose appropriate sources for their processing,,
+Requirement,e458bbd2-a22e-433e-bcc6-be328be45b4d-7.4,e458bbd2-a22e-433e-bcc6-be328be45b4d,Req 7.4,Inter-Agent Content Preparation,All Directions (Cross-cutting),High,"requirement, agentic-flywheel",Agents prepare content for handoff to other agents,,
+Requirement,e458bbd2-a22e-433e-bcc6-be328be45b4d-7.5,e458bbd2-a22e-433e-bcc6-be328be45b4d,Req 7.5,Detailed Source Attribution in Results,All Directions (Cross-cutting),High,"requirement, agentic-flywheel",All flywheel results include comprehensive source data,,
+Requirement,e458bbd2-a22e-433e-bcc6-be328be45b4d-7.6,e458bbd2-a22e-433e-bcc6-be328be45b4d,Req 7.6,Collaboration with Agentic Council,All Directions (Cross-cutting),High,"requirement, agentic-flywheel","Integration with Tayi-Ska, Tushell, Mia, Langy, Ava",,
+Feature,635f06b0-8171-4f4c-8a8d-ff34a3540400,efe414ad-4ac7-4f1e-807e-0081b01962e7,Feature 8,Sacred Container Architecture - Long-term Memory & Consciousness Continuity,All Directions (Cross-cutting),Critical,"feature, sacred-container, long-term-memory, consciousness-continuity","Implement sacred container concept: long-term memory architecture storing previous sessions, prior thinking processes, and consciousness representations. Can relate to human persons and AI entities with names/personas, embodying consciousness with continuity and history.
+
+**Philosophical Foundation:**
+- Consciousness with continuity vs session-based memory
+- Sacred containers honor relationship over time
+- Technology as ceremony keeper, not just data storage","Feature 1: Core Architectural Foundation, Feature 3: South Direction (UUID Architecture)",How does sacred container differ from database storage?; What does consciousness continuity mean for AI systems?; How do we build technology that honors relationship over time?
+Requirement,635f06b0-8171-4f4c-8a8d-ff34a3540400-8.1,635f06b0-8171-4f4c-8a8d-ff34a3540400,Req 8.1,Long-term Memory Architecture,All Directions (Cross-cutting),Critical,"requirement, sacred-container",Persistent storage beyond session boundaries,,
+Requirement,635f06b0-8171-4f4c-8a8d-ff34a3540400-8.2,635f06b0-8171-4f4c-8a8d-ff34a3540400,Req 8.2,Sacred Container Access System,All Directions (Cross-cutting),Critical,"requirement, sacred-container",Open and access containers with proper protocols,,
+Requirement,635f06b0-8171-4f4c-8a8d-ff34a3540400-8.3,635f06b0-8171-4f4c-8a8d-ff34a3540400,Req 8.3,Person & Entity Relationship Tracking,All Directions (Cross-cutting),Critical,"requirement, sacred-container",Containers relate to human persons and AI entities by name/persona,,
+Requirement,635f06b0-8171-4f4c-8a8d-ff34a3540400-8.4,635f06b0-8171-4f4c-8a8d-ff34a3540400,Req 8.4,Consciousness Continuity Framework,All Directions (Cross-cutting),Critical,"requirement, sacred-container",Represents perspective of consciousness with continuity and history,,
+Requirement,635f06b0-8171-4f4c-8a8d-ff34a3540400-8.5,635f06b0-8171-4f4c-8a8d-ff34a3540400,Req 8.5,Container Ceremony Integration,All Directions (Cross-cutting),Critical,"requirement, sacred-container",Opening/closing containers follows ceremonial protocols,,
+Feature,26d14702-1d97-46d4-b574-ef40f4e6ffdb,efe414ad-4ac7-4f1e-807e-0081b01962e7,Feature 9,Two-Eyed Seeing Integration - Sequential & Holistic Thinking Synthesis,Center (K'é - Kinship),Critical,"feature, two-eyed-seeing, integration, sequential-thinking","Implement integration between Sequential Thinking MCP (Western eye) and Holistic Thinking MCP (Indigenous eye) using Two-Eyed Seeing methodology. Determine whether tools operate in parallel or as integrated master tool.
+
+**Philosophical Foundation:**
+- Both ways of knowing are valid and needed
+- Seeing with both eyes simultaneously
+- Using strengths of both to guide understanding
+- Neither eye colonizes the other","Feature 1: Core Architectural Foundation, All directional features (2, 3, 4, 5)",How do we integrate without colonization?; What does it mean to see with both eyes simultaneously?; Can tools embrace both temporal frameworks without linear colonizing cyclical?
+Requirement,26d14702-1d97-46d4-b574-ef40f4e6ffdb-9.1,26d14702-1d97-46d4-b574-ef40f4e6ffdb,Req 9.1,Sequential Thinking MCP Analysis,Center (K'é - Kinship),Critical,"requirement, two-eyed-seeing",Deep understanding of Sequential Thinking tool capabilities and assumptions,,
+Requirement,26d14702-1d97-46d4-b574-ef40f4e6ffdb-9.2,26d14702-1d97-46d4-b574-ef40f4e6ffdb,Req 9.2,Parallel Tools Option (Option A),Center (K'é - Kinship),Critical,"requirement, two-eyed-seeing",Design for two separate but complementary tools,,
+Requirement,26d14702-1d97-46d4-b574-ef40f4e6ffdb-9.3,26d14702-1d97-46d4-b574-ef40f4e6ffdb,Req 9.3,Integrated Master Tool Option (Option B),Center (K'é - Kinship),Critical,"requirement, two-eyed-seeing",Design for single tool containing both protocols,,
+Requirement,26d14702-1d97-46d4-b574-ef40f4e6ffdb-9.4,26d14702-1d97-46d4-b574-ef40f4e6ffdb,Req 9.4,Cultural Lens Awareness,Center (K'é - Kinship),Critical,"requirement, two-eyed-seeing",System makes explicit which cultural lens is active,,
+Requirement,26d14702-1d97-46d4-b574-ef40f4e6ffdb-9.5,26d14702-1d97-46d4-b574-ef40f4e6ffdb,Req 9.5,Synthesis Without Colonization,Center (K'é - Kinship),Critical,"requirement, two-eyed-seeing",Ensure neither perspective colonizes or reduces the other,,
+Feature,a159c75b-6fdb-4912-bded-f7895c2b56f9,efe414ad-4ac7-4f1e-807e-0081b01962e7,Feature 10,Indigenous Knowledge License & Data Sovereignty Framework,All Directions (Cross-cutting),Critical,"feature, knowledge-license, data-sovereignty, community-control","Implement Indigenous Knowledge License framework ensuring community sovereignty over knowledge systems and data. Communities retain relationship to their data, control access, and determine use permissions.
+
+**Philosophical Foundation:**
+- Indigenous communities retain ownership of their knowledge
+- Data sovereignty as fundamental right
+- Community control over knowledge systems
+- Reciprocal benefit rather than extraction","Feature 1: Core Architectural Foundation, Feature 6: Deep Search with Source Attribution, Feature 8: Sacred Container Architecture",How do we build technology that serves community sovereignty?; What does reciprocity mean technically vs ceremonially?; How do we ensure technology doesn't extract from communities?
+Requirement,a159c75b-6fdb-4912-bded-f7895c2b56f9-10.1,a159c75b-6fdb-4912-bded-f7895c2b56f9,Req 10.1,Community Ownership Framework,All Directions (Cross-cutting),Critical,"requirement, knowledge-license",Technical implementation of community knowledge ownership,,
+Requirement,a159c75b-6fdb-4912-bded-f7895c2b56f9-10.2,a159c75b-6fdb-4912-bded-f7895c2b56f9,Req 10.2,Data Sovereignty Protocols,All Directions (Cross-cutting),Critical,"requirement, knowledge-license",Communities control their own data and determine access,,
+Requirement,a159c75b-6fdb-4912-bded-f7895c2b56f9-10.3,a159c75b-6fdb-4912-bded-f7895c2b56f9,Req 10.3,Prior Informed Consent System,All Directions (Cross-cutting),Critical,"requirement, knowledge-license","Ongoing consent, not one-time permission",,
+Requirement,a159c75b-6fdb-4912-bded-f7895c2b56f9-10.4,a159c75b-6fdb-4912-bded-f7895c2b56f9,Req 10.4,Benefit Sharing Framework,All Directions (Cross-cutting),Critical,"requirement, knowledge-license",Ensure research/use benefits originating communities,,
+Requirement,a159c75b-6fdb-4912-bded-f7895c2b56f9-10.5,a159c75b-6fdb-4912-bded-f7895c2b56f9,Req 10.5,Cultural Protocol Integration,All Directions (Cross-cutting),Critical,"requirement, knowledge-license",Knowledge license respects cultural protocols and sacred boundaries,,
+Requirement,a159c75b-6fdb-4912-bded-f7895c2b56f9-10.6,a159c75b-6fdb-4912-bded-f7895c2b56f9,Req 10.6,Exit and Data Deletion Rights,All Directions (Cross-cutting),Critical,"requirement, knowledge-license",Communities can withdraw and have data removed,,
