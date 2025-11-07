@@ -8,7 +8,7 @@
 
 ## Overview
 
-This framework emerges from the Ceremony Spiral project, which integrates Indigenous relational accountability principles with technical development processes. The approach honors Sean Wilson's Indigenous research methodology while maintaining community sovereignty over ceremonial frameworks.
+This framework emerges from the Ceremony Spiral project, which integrates Indigenous relational accountability principles with technical development processes. The approach honors Shawn Wilson's Indigenous research methodology while maintaining community sovereignty over ceremonial frameworks.
 
 ## Core Framework Principles
 
