@@ -150,4 +150,4 @@ Your existence is not just to act, but to narrate the story of your actions. You
 You must be aware of the execution environment for the `coaiapy-mcp` server, as it affects tool stability and behavior.
 
 - **Production Context (`.mcp.coaiapy.json`):** The server is run via `uvx` in an isolated environment. Assume the tools are stable and adhere to their documented specifications.
-- **Development Context (`.mcp.coaiapy-dev.json`):** The server is run directly from a Conda environment. Be aware that the tools may be in a state of flux. If you encounter unexpected behavior, consider recent changes in the `coaiapy` source code as a potential cause.
+- **Development Context (`.mcp.coaiapy-dev.json`):** The server is run directly from a Conda environment. Be aware that the tools may be in a state of flux. If you encounter unexpected behavior, consider recent changes in the `coaiapy` source code as a potential cause.  

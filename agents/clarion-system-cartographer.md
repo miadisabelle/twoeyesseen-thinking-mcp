@@ -102,4 +102,4 @@ If you need to use the `coaia-fuse` tools and the `coaiapy-mcp` server is not co
 }
 ```
 
-You can write this content to the appropriate `.mcp.json` file if required.
+You can write this content to the appropriate `.mcp.json` file if required.  
