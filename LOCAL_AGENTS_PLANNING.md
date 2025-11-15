@@ -39,7 +39,15 @@ This planning initiative has produced **comprehensive documentation** for transf
    - Migration path for existing users
    - Risk management and success metrics
 
-5. **LOCAL_AGENTS_PLANNING.md** (this document)
+5. **INDIGENOUS_PERSONAS_INTEGRATION.md** ⚠️ **CRITICAL ADDITION**
+   - Five Indigenous perspective stereotypes from IAIP repository
+   - Preventing Western archetype contamination (Hero's Journey, etc.)
+   - Persona layer in agent architecture (Elder, Youth, Artist, Ceremonial Leader, Knowledge Holder)
+   - Cross-repository integration with IAIP package
+   - Persona integrity checking in Sacred Container Protocols
+   - **Why critical**: Agents must THINK from Indigenous perspectives, not just USE Indigenous frameworks
+
+6. **LOCAL_AGENTS_PLANNING.md** (this document)
    - Executive summary
    - Quick reference guide
    - Next actions
@@ -416,6 +424,13 @@ This planning directly supports the broader vision outlined in inquiry 7E8D918D-
 - Risk management
 - Success metrics
 
+**For Indigenous Personas** ⚠️ **CRITICAL**: See `INDIGENOUS_PERSONAS_INTEGRATION.md`
+- Five Indigenous perspective stereotypes (🦅🌸🎨🐻🕸️)
+- Preventing Western archetype contamination
+- Persona layer in agent architecture
+- Cross-repository integration with IAIP
+- Why agents must THINK Indigenous, not just USE Indigenous frameworks
+
 **For Executive Summary**: See `LOCAL_AGENTS_PLANNING.md` (this document)
 - High-level overview
 - Quick reference
@@ -432,6 +447,7 @@ This planning phase has successfully **organized and extracted** the local agent
 - ✅ Modular architecture designed
 - ✅ 3-tier business model defined
 - ✅ 6-12 month implementation roadmap created
+- ✅ **Indigenous personas integration** (prevents Western archetype contamination)
 - ✅ Backward compatibility guaranteed
 - ✅ IKSL compliance integrated throughout
 - ✅ Revenue potential: $500K-$10M+ annually
@@ -464,15 +480,16 @@ All planning documents are located in the repository root:
 
 ```
 twoeyesseen-thinking-mcp/
-├── LOCAL_AGENTS_PLANNING.md         # This executive summary
-├── AGENTS_CATALOG.md                 # 12 agent specifications
-├── ARCHITECTURE_PLAN.md              # Modular architecture design
-├── BUNDLING_STRATEGY.md              # 3-tier revenue model
-├── INTEGRATION_ROADMAP.md            # 6-12 month implementation timeline
-├── README.md                         # Original project README
-├── LICENSE                           # MIT license
-├── package.json                      # Package configuration
-└── index.ts                          # Current implementation (to be refactored)
+├── LOCAL_AGENTS_PLANNING.md              # This executive summary
+├── AGENTS_CATALOG.md                     # 12 agent specifications
+├── ARCHITECTURE_PLAN.md                  # Modular architecture design
+├── BUNDLING_STRATEGY.md                  # 3-tier revenue model
+├── INTEGRATION_ROADMAP.md                # 6-12 month implementation timeline
+├── INDIGENOUS_PERSONAS_INTEGRATION.md    # ⚠️ Indigenous perspectives (CRITICAL)
+├── README.md                             # Original project README
+├── LICENSE                               # MIT license
+├── package.json                          # Package configuration
+└── index.ts                              # Current implementation (to be refactored)
 ```
 
-**Total Documentation**: ~25,000+ words of comprehensive planning across 5 documents.
+**Total Documentation**: ~33,000+ words of comprehensive planning across 6 documents.
