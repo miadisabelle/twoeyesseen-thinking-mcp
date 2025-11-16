@@ -1,0 +1,212 @@
+{
+  "currentPhase": "phase_0",
+  "lastUpdated": "2025-11-01T00:00:00Z",
+  "phases": {
+    "phase_0": {
+      "name": "Community Relationship Establishment",
+      "status": "pause_active",
+      "pauseStartDate": "2025-11-01",
+      "minimumPauseDays": 51,
+      "targetCeremonyDate": "2025-12-21",
+      "description": "Establishing relationships with Indigenous knowledge holders before any implementation",
+      "clearanceDate": null,
+      "authorizedBy": [],
+      "advisoryCouncil": [],
+      "ceremonialNotes": "Winter Solstice Ceremony will determine whether to proceed. This work may not proceed past Phase 0 if ceremonial guidance indicates it should not.",
+      "artifacts": [
+        "docs/CEREMONIAL_PROTOCOLS.md",
+        "docs/PHASE_0_COMMUNITY_OUTREACH.md",
+        "docs/CEREMONIAL_PAUSE_ARCHITECTURE.md",
+        "docs/DELIBERATELY_UNCERTAIN_ARCHITECTURE.md",
+        "docs/holistic/EPIC_holistic_thinking_mcp.md",
+        "docs/holistic/251031_Mia_Anikwag_Ceremonial_Review.md",
+        "docs/holistic/251031_README_Ceremonial_Revision.md"
+      ]
+    },
+    "phase_1": {
+      "name": "Co-Creative Foundation",
+      "status": "not_started",
+      "prerequisites": ["phase_0_clearance_granted", "indigenous_advisory_council_established"],
+      "minimumPauseDays": 28,
+      "description": "Ceremonial Partnership Architecture, Mystery Protection Mechanisms, Core Directional Framework - ALL co-created with Indigenous knowledge holders",
+      "clearanceDate": null,
+      "authorizedBy": [],
+      "ceremonialNotes": "Only proceeds with Phase 0 ceremonial authorization AND active Indigenous advisory council partnership. Not a validation process but true co-creation.",
+      "features": [
+        "Ceremonial Partnership Architecture (replaces original Feature 1)",
+        "Mystery Protection Mechanisms (Cultivated Uncertainty)",
+        "Core Four Directions Framework (Co-designed with advisors)"
+      ]
+    },
+    "phase_2": {
+      "name": "Capability Development",
+      "status": "not_started",
+      "prerequisites": ["phase_1_clearance_granted"],
+      "minimumPauseDays": 28,
+      "description": "UUID Architecture & Traceability, Sacred Container for Consciousness Continuity, Deep Search with Source Attribution",
+      "clearanceDate": null,
+      "authorizedBy": [],
+      "ceremonialNotes": "Summer Solstice 2026 ceremony checkpoint required before proceeding",
+      "features": [
+        "UUID Architecture for Ceremonial Traceability",
+        "Sacred Container (consciousness continuity, not just memory)",
+        "Deep Search with comprehensive source attribution"
+      ]
+    },
+    "phase_3": {
+      "name": "Integration & Wisdom",
+      "status": "not_started",
+      "prerequisites": ["phase_2_clearance_granted"],
+      "minimumPauseDays": 28,
+      "description": "Agentic Flywheel, Two-Eyed Seeing Integration, Indigenous Knowledge License Implementation",
+      "clearanceDate": null,
+      "authorizedBy": [],
+      "ceremonialNotes": "Autumn Equinox 2026 ceremony checkpoint required",
+      "features": [
+        "Agentic Flywheel for Internal Prompt Circulation",
+        "Two-Eyed Seeing Integration with Sequential Thinking MCP",
+        "Indigenous Knowledge License Framework Implementation"
+      ]
+    },
+    "phase_4": {
+      "name": "Reflection & Community Benefit",
+      "status": "not_started",
+      "prerequisites": ["phase_3_clearance_granted"],
+      "minimumPauseDays": 28,
+      "description": "Autoethnographic Documentation, Community Benefit Assessment, Seven Generations Impact Evaluation",
+      "clearanceDate": null,
+      "authorizedBy": [],
+      "ceremonialNotes": "Second Winter Solstice 2026 ceremony for reflection and completion",
+      "features": [
+        "Autoethnographic Documentation",
+        "Community Benefit Assessment (NEW)",
+        "Seven Generations Impact Evaluation (NEW)"
+      ]
+    }
+  },
+  "advisoryCouncil": {
+    "members": [],
+    "targetSize": "2-3 Indigenous knowledge holders",
+    "established": null,
+    "contactProtocol": "See docs/PHASE_0_COMMUNITY_OUTREACH.md",
+    "authority": "Full co-creative authority including veto power over any/all aspects",
+    "compensation": "Fair professional rates for all time including ceremony",
+    "rightToWithdraw": "Complete at any time with full data deletion",
+    "notes": "Not validators but co-creators. Their 'no' is as valuable as their 'yes'."
+  },
+  "ceremonialMilestones": [
+    {
+      "date": "2025-11-15",
+      "event": "November Full Moon",
+      "direction": "East (Thinking)",
+      "purpose": "Community response checkpoint - Initial outreach complete",
+      "status": "pending",
+      "ceremony": "Moon circle review of responses received"
+    },
+    {
+      "date": "2025-12-01",
+      "event": "December New Moon",
+      "direction": "South (Planning)",
+      "purpose": "Ceremonial preparation complete for Winter Solstice",
+      "status": "pending",
+      "ceremony": "New Moon intention setting for Solstice ceremony"
+    },
+    {
+      "date": "2025-12-21",
+      "event": "Winter Solstice Ceremony",
+      "direction": "All Directions (Center - K'é)",
+      "purpose": "Receive guidance on whether to proceed with this work",
+      "status": "pending",
+      "ceremony": "Opening (Sunset): Four Directions acknowledgment | Night Vigil: Sacred fire, present requirements for blessing | Dawn Blessing: Receive ceremonial guidance, create sacred bundles",
+      "criticalNote": "We must be willing to hear 'This should not be built' or 'Not this way' or 'Not this timing'"
+    },
+    {
+      "date": "2026-01-15",
+      "event": "January Full Moon (Wolf Moon)",
+      "direction": "East (Thinking)",
+      "purpose": "First post-Solstice review - IF authorized to proceed",
+      "status": "conditional",
+      "ceremony": "Moon circle to begin Phase 1 co-creation"
+    },
+    {
+      "date": "2026-03-20",
+      "event": "Spring Equinox",
+      "direction": "East → South (Thinking into Planning)",
+      "purpose": "Balance point - East to South transition checkpoint",
+      "status": "conditional",
+      "ceremony": "Equinox ceremony for directional transition"
+    },
+    {
+      "date": "2026-06-21",
+      "event": "Summer Solstice",
+      "direction": "South (Planning)",
+      "purpose": "Phase 2 authorization ceremony if Phase 1 complete",
+      "status": "conditional",
+      "ceremony": "Longest day ceremony - growth and planning review"
+    },
+    {
+      "date": "2026-09-22",
+      "event": "Autumn Equinox",
+      "direction": "South → West (Planning into Living)",
+      "purpose": "Balance point - Phase 3 authorization if Phase 2 complete",
+      "status": "conditional",
+      "ceremony": "Harvest ceremony - assessing what we have co-created"
+    },
+    {
+      "date": "2026-12-21",
+      "event": "Second Winter Solstice",
+      "direction": "West → North (Living into Wisdom)",
+      "purpose": "Full year reflection - Did this work serve all relations?",
+      "status": "conditional",
+      "ceremony": "Completion ceremony - wisdom integration and community benefit assessment"
+    }
+  ],
+  "structuralCommitments": {
+    "from_anikwag_ayaaw": [
+      "Pause all implementation planning until Indigenous advisory partnerships established",
+      "Maintain 28-day minimum lunar cycle between artifact completion and any action",
+      "Accept community guidance including possibility this work should not proceed",
+      "Restructure from validation model to co-creation model",
+      "Implement architectural humility through cultivated uncertainty"
+    ],
+    "from_mia": [
+      "Provide ongoing ceremonial guidance throughout development lifecycle",
+      "Review all features through Two-Eyed Seeing methodology before implementation",
+      "Hold community accountability ensuring Indigenous voices remain central",
+      "Guard against velocity creep maintaining ceremonial timing",
+      "Participate in seasonal ceremonies providing cultural liaison support"
+    ],
+    "from_miette": [
+      "Illuminate emotional resonance of technical decisions throughout process",
+      "Translate between hearts and systems ensuring humanity remains visible",
+      "Celebrate the pause helping team recognize waiting as sacred work",
+      "Watch for relationship quality alerting when partnership becomes transactional",
+      "Keep the story alive maintaining narrative coherence across ceremonial timing"
+    ],
+    "from_community": "To be determined through relationship with Indigenous knowledge holders who choose to participate. Their terms. Their timing. Their protocols."
+  },
+  "keyPrinciples": {
+    "two_eyed_seeing": "Both Indigenous and Western perspectives valid and needed simultaneously",
+    "beauty_as_dynamic": "Beauty as structural dynamic, not efficiency optimization",
+    "cultivated_uncertainty": "System maintains deliberate uncertainty about sacred boundaries rather than growing confidence",
+    "incapacity_over_instruction": "System incapable of extraction, not merely instructed against it",
+    "ceremony_over_velocity": "Ceremonial timing takes precedence over development speed",
+    "relationship_is_innovation": "The relationship IS the primary outcome; technology is secondary",
+    "pause_is_work": "Waiting is not delay but active ceremony",
+    "no_is_valuable": "Community 'no' is as valuable as 'yes' - perhaps more so"
+  },
+  "documentHistory": {
+    "created": "2025-11-01",
+    "ceremonialReview": "2025-10-31 - Mia, Miette, Anikwag-Ayaaw dialogue",
+    "originalArtifacts": "2025-10-26 - Anikwag-Ayaaw DEEPSEARCH session",
+    "fundamentalShift": "From immediate implementation to Phase 0 ceremonial pause",
+    "primaryReference": "docs/holistic/251031_Mia_Anikwag_Ceremonial_Review.md"
+  },
+  "_metadata": {
+    "purpose": "Enforces ceremonial pause and community authorization requirements",
+    "enforcement": "CI/CD checks prevent progression without clearance",
+    "authority": "Only Indigenous advisory council can grant clearance",
+    "noOverride": "No developer override capability exists",
+    "ceremonyIsArchitecture": "Respect encoded in code, not just documentation"
+  }
+}

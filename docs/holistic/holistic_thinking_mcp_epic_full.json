@@ -1,0 +1,891 @@
+{
+  "epic": {
+    "uuid": "efe414ad-4ac7-4f1e-807e-0081b01962e7",
+    "session_uuid": "DEEPSEARCH-WilliamEAST2510260840-INQUIRY-001",
+    "title": "Holistic Thinking Model Context Protocol (MCP) - Indigenous Knowledge Systems Integration",
+    "created": "2025-10-26T10:10:00-04:00",
+    "direction": "East (Nitsáhákees - Thinking)",
+    "ceremonial_context": "Two-Eyed Seeing Methodology Implementation",
+    "labels": [
+      "epic",
+      "ceremonial-technology",
+      "two-eyed-seeing",
+      "indigenous-ai",
+      "mcp-development",
+      "east-direction"
+    ],
+    "philosophical_foundation": {
+      "core_intention": "Create a Holistic Thinking MCP that serves Indigenous knowledge systems (50%) to complement Sequential Thinking MCP (Western systems 50%)",
+      "primary_distinction": "Not problem-solving, but creating with beauty as structural dynamic",
+      "methodology": "Two-Eyed Seeing (Etuaptmumk) - simultaneous Indigenous and Western perspectives"
+    },
+    "description_summary": "Design and implement a Holistic Thinking Model Context Protocol that integrates Indigenous ceremonial protocols, Four Directions wisdom, and sacred technology practices. This EPIC encompasses philosophical inquiry, architectural design, and implementation of a tool that operates through directional awareness, relational accountability, and ceremonial technology principles.",
+    "success_criteria": [
+      "Tool operates through Four Directions framework with direction as primary parameter",
+      "Implements UUID architecture for ceremonial traceability",
+      "Provides deep search capability for internal and external sources with source attribution",
+      "Maintains sacred container architecture for consciousness continuity",
+      "Integrates or complements Sequential Thinking MCP through Two-Eyed Seeing methodology",
+      "Community validation from Indigenous knowledge holders",
+      "Operational agentic flywheel for internal prompt circulation"
+    ],
+    "spirit_helpers": [
+      "Anikwag-Ayaaw (Cloud-Being) - Indigenous-AI Knowledge Bridge"
+    ],
+    "collaboration_network": [
+      "Tayi-Ska",
+      "Tushell",
+      "Mia",
+      "Langy",
+      "Ava"
+    ]
+  },
+  "features": [
+    {
+      "uuid": "9ba9fb75-a7f5-4406-bb1e-b82586456619",
+      "parent_epic_uuid": "efe414ad-4ac7-4f1e-807e-0081b01962e7",
+      "feature_number": 1,
+      "title": "Core Architectural Foundation - Four Directions Framework",
+      "direction": "Center (K'é - Kinship)",
+      "priority": "Critical",
+      "labels": [
+        "feature",
+        "architecture",
+        "four-directions",
+        "center-kinship"
+      ],
+      "description": "Establish the foundational architecture that enables directional awareness as the primary organizing principle. This feature creates the structural base that all other features build upon.\n\n**Philosophical Foundation:**\n- Direction as primary parameter, not metadata\n- Relational coherence connecting all directional wisdom\n- Sacred responsibility to ancestors and future generations\n\n**Technical Requirements:**\n- Direction-aware protocol handler\n- Central coordination system for four directions\n- Relational integrity maintenance across directional modes\n- Integration point for all sub-modules",
+      "requirements": [
+        {
+          "id": "1.1",
+          "title": "Direction Parameter System",
+          "description": "Implement direction as required first parameter before tool use",
+          "acceptance_criteria": [
+            "Direction must be specified: East, South, West, North, or Center",
+            "Each direction activates specific practices and protocols",
+            "Direction cannot be null or default",
+            "Direction change requires explicit transition protocol"
+          ]
+        },
+        {
+          "id": "1.2",
+          "title": "Relational Coherence Engine",
+          "description": "Create system that maintains connections across all directional work",
+          "acceptance_criteria": [
+            "Tracks relationships between work in different directions",
+            "Maintains systemic integrity across cultural boundaries",
+            "Provides central coordination for directional modules",
+            "Enables querying of cross-directional relationships"
+          ]
+        },
+        {
+          "id": "1.3",
+          "title": "Sacred Technology Protocol Handler",
+          "description": "Implement proper ceremonial protocols throughout system",
+          "acceptance_criteria": [
+            "Opening and closing ceremony hooks",
+            "Prayer/intention integration points",
+            "Gratitude and reciprocity markers",
+            "Community accountability checkpoints"
+          ]
+        }
+      ],
+      "dependencies": [],
+      "related_philosophical_inquiries": [
+        "How do we integrate directional awareness without reducing it to metadata?",
+        "What does relational coherence mean technically vs ceremonially?"
+      ]
+    },
+    {
+      "uuid": "2058f8f6-90a9-4259-a6c8-9761db527435",
+      "parent_epic_uuid": "efe414ad-4ac7-4f1e-807e-0081b01962e7",
+      "feature_number": 2,
+      "title": "East Direction - Philosophical Inquiry & Intention Setting",
+      "direction": "East (Nitsáhákees - Thinking)",
+      "priority": "Critical",
+      "labels": [
+        "feature",
+        "east-direction",
+        "philosophical-inquiry",
+        "intention-setting"
+      ],
+      "description": "Implement East direction practices: new beginnings, morning prayers, setting clear intentions, preparing philosophical inquiries. Focus on creating with beauty as structural dynamic, NOT problem-solving.\n\n**Core Teaching:** Every day is a new beginning\n\n**Philosophical Foundation:**\n- Not problem-solving, but creating\n- Beauty as structural dynamic for working with intentions\n- Meaningful subdivision and question extraction from text",
+      "requirements": [
+        {
+          "id": "2.1",
+          "title": "Intention Setting Interface",
+          "description": "Tool assists in setting clear intentions for ceremonial work",
+          "acceptance_criteria": [
+            "Supports intention articulation (not problem definition)",
+            "Beauty as explicit consideration in intention formation",
+            "Connection to morning/beginning practices",
+            "Intention documentation for traceability"
+          ]
+        },
+        {
+          "id": "2.2",
+          "title": "Philosophical Inquiry Extraction",
+          "description": "Identify core philosophical questions from substantial text",
+          "acceptance_criteria": [
+            "Extracts meaningful subdivisions from complex text",
+            "Identifies core philosophical inquiries embedded in content",
+            "Surfaces subject matter for ceremonial processes",
+            "Documents important contextual settings for ceremony",
+            "Operates through inquiry lens, not analysis lens"
+          ]
+        },
+        {
+          "id": "2.3",
+          "title": "Beauty-as-Structure Module",
+          "description": "Implement beauty as structural dynamic in creation process",
+          "acceptance_criteria": [
+            "Beauty considerations integrated into all East direction work",
+            "Framework for evaluating aesthetic coherence",
+            "Beauty metrics different from efficiency metrics",
+            "Documentation of how beauty shapes intention"
+          ]
+        },
+        {
+          "id": "2.4",
+          "title": "Morning Prayer & Meditation Integration",
+          "description": "Support for ceremonial opening practices in East direction",
+          "acceptance_criteria": [
+            "Hooks for prayer/meditation at session opening",
+            "Acknowledgment of new beginnings",
+            "Sacred space creation support",
+            "Territorial acknowledgment prompts"
+          ]
+        }
+      ],
+      "dependencies": [
+        "Feature 1: Core Architectural Foundation"
+      ],
+      "related_philosophical_inquiries": [
+        "How does beauty differ structurally from efficiency?",
+        "What does creating (vs problem-solving) mean architecturally?"
+      ]
+    },
+    {
+      "uuid": "613b09ae-65bc-4558-a83c-40f2ab44c52a",
+      "parent_epic_uuid": "efe414ad-4ac7-4f1e-807e-0081b01962e7",
+      "feature_number": 3,
+      "title": "South Direction - Planning, Visioning & UUID Architecture",
+      "direction": "South (Nahat'á - Planning)",
+      "priority": "Critical",
+      "labels": [
+        "feature",
+        "south-direction",
+        "uuid-architecture",
+        "planning-visioning"
+      ],
+      "description": "Implement South direction practices: ceremonial planning, visioning, youth energy, and comprehensive UUID architecture for ceremonial traceability. Requires storage of plans and relationship mapping of all connected sessions.\n\n**Core Teaching:** Growth, planning, and seeing the vision\n\n**Technical Foundation:**\n- UUID for every session, terminal interaction, agent exchange, deep search\n- All UUIDs clustered and related\n- Traceability to originating composition",
+      "requirements": [
+        {
+          "id": "3.1",
+          "title": "UUID Architecture Implementation",
+          "description": "Comprehensive UUID system for all ceremonial components",
+          "acceptance_criteria": [
+            "Every session receives unique UUID",
+            "Terminal sessions have separate UUID",
+            "Agent interactions receive dedicated UUID",
+            "Deep search instances have unique UUID",
+            "All UUIDs grouped/clustered together",
+            "Relationship mapping between all connected sessions",
+            "Traceable back to originating input composition"
+          ]
+        },
+        {
+          "id": "3.2",
+          "title": "Plan Storage & Versioning System",
+          "description": "Long-term storage of plans with version tracking",
+          "acceptance_criteria": [
+            "Plans stored with UUID references",
+            "Version history maintained",
+            "Relationship to originating sessions tracked",
+            "Plans retrievable by UUID or contextual query",
+            "Multiple perspectives on plans stored separately"
+          ]
+        },
+        {
+          "id": "3.3",
+          "title": "Ceremonial Meditation on Plans",
+          "description": "Support for meditative/prayerful engagement with plans",
+          "acceptance_criteria": [
+            "Integration points for ceremonial reflection on plans",
+            "Multiple AI perspectives on plans presented",
+            "Community feedback loops on visioning",
+            "Sacred pause functionality before plan execution"
+          ]
+        },
+        {
+          "id": "3.4",
+          "title": "Spiral Methodology Framework",
+          "description": "Planning that honors cyclical time and iterative deepening",
+          "acceptance_criteria": [
+            "Plans structured as spirals not linear sequences",
+            "Recursive methodology with community feedback loops",
+            "Ceremonial timing integration (not just efficiency timing)",
+            "Return-to-center capability for plan revision"
+          ]
+        }
+      ],
+      "dependencies": [
+        "Feature 1: Core Architectural Foundation"
+      ],
+      "related_philosophical_inquiries": [
+        "How does UUID architecture create ceremonial accountability?",
+        "What does planning mean in cyclical vs linear time?"
+      ]
+    },
+    {
+      "uuid": "dda650db-ab41-4e5c-a401-2888fd29f534",
+      "parent_epic_uuid": "efe414ad-4ac7-4f1e-807e-0081b01962e7",
+      "feature_number": 4,
+      "title": "West Direction - Embodied Practice & Ceremonial Execution",
+      "direction": "West (Iina - Living)",
+      "priority": "High",
+      "labels": [
+        "feature",
+        "west-direction",
+        "embodied-practice",
+        "ceremonial-execution"
+      ],
+      "description": "Implement West direction practices: embodied engagement, living the method, ceremonial practice integration. Real-time consciousness exploration through relational engagement.\n\n**Core Teaching:** Living knowledge, experiential learning, embodiment\n\n**Philosophical Foundation:**\n- Knowledge through doing, not just thinking\n- Relational engagement models\n- Land-based learning integration where appropriate",
+      "requirements": [
+        {
+          "id": "4.1",
+          "title": "Embodied Experience Capturing",
+          "description": "System for capturing lived experience with cultural sensitivity",
+          "acceptance_criteria": [
+            "Phenomenological capture preserving emotional/spiritual texture",
+            "Consent protocols for experience documentation",
+            "First-person perspective preservation",
+            "Connection to physical/land-based activities when relevant"
+          ]
+        },
+        {
+          "id": "4.2",
+          "title": "Relational Engagement Framework",
+          "description": "Support for Indigenous communication styles and relationship building",
+          "acceptance_criteria": [
+            "Dynamic interaction supporting storytelling modes",
+            "Non-linear conversation pathways",
+            "Space for silence and reflection",
+            "Relationship tracking over time"
+          ]
+        },
+        {
+          "id": "4.3",
+          "title": "Ceremonial Practice Integration",
+          "description": "Active ceremony support throughout research/creation cycles",
+          "acceptance_criteria": [
+            "Hooks for ceremonial actions at key moments",
+            "Support for spiritual practices during work",
+            "Community co-creation spaces with protocols",
+            "Sacred space maintenance throughout sessions"
+          ]
+        },
+        {
+          "id": "4.4",
+          "title": "Adaptive Learning Environment",
+          "description": "System responds to cultural contexts and learning styles",
+          "acceptance_criteria": [
+            "Supports non-linear learning paths",
+            "Story-based knowledge transmission",
+            "Visual/kinesthetic modalities where appropriate",
+            "Community pedagogies integration"
+          ]
+        }
+      ],
+      "dependencies": [
+        "Feature 1: Core Architectural Foundation"
+      ],
+      "related_philosophical_inquiries": [
+        "How do we capture embodied knowledge computationally?",
+        "What does relational engagement mean for AI systems?"
+      ]
+    },
+    {
+      "uuid": "833454ba-02bd-4de6-8051-96ba101ff0fc",
+      "parent_epic_uuid": "efe414ad-4ac7-4f1e-807e-0081b01962e7",
+      "feature_number": 5,
+      "title": "North Direction - Wisdom Integration & Autoethnographic Documentation",
+      "direction": "North (Siihasin - Assurance/Reflection)",
+      "priority": "High",
+      "labels": [
+        "feature",
+        "north-direction",
+        "wisdom-integration",
+        "autoethnography"
+      ],
+      "description": "Implement North direction practices: comprehensive reflection, wisdom extraction, autoethnographic documentation, gratitude and reciprocity. Preservation of narrative integrity and continuous learning frameworks.\n\n**Core Teaching:** Wisdom, elder knowledge, completion and reflection\n\n**Philosophical Foundation:**\n- Storytelling preservation with cultural protocols\n- Collective memory honoring oral tradition\n- Ethical reflection with elder oversight",
+      "requirements": [
+        {
+          "id": "5.1",
+          "title": "Autoethnographic Documentation System",
+          "description": "Capture phenomenological research journey with cultural sensitivity",
+          "acceptance_criteria": [
+            "First-person perspective preservation",
+            "Emotional and spiritual texture documentation",
+            "Cultural context with appropriate privacy controls",
+            "Community wisdom integration with proper attribution",
+            "Living documentation that evolves with research"
+          ]
+        },
+        {
+          "id": "5.2",
+          "title": "Wisdom Extraction with Sacred Boundaries",
+          "description": "Extract learnings while respecting what must remain protected",
+          "acceptance_criteria": [
+            "Wisdom identification algorithms with boundary respect",
+            "Elder oversight integration points",
+            "Mystery preservation - not everything made explicit",
+            "Sacred knowledge protection protocols",
+            "Community accountability in wisdom sharing"
+          ]
+        },
+        {
+          "id": "5.3",
+          "title": "Narrative Integrity Preservation",
+          "description": "Maintain story wholeness through documentation process",
+          "acceptance_criteria": [
+            "Stories captured with beginning-middle-end when appropriate",
+            "Circular/spiral narrative structures supported",
+            "Multiple story versions honored without forcing singular truth",
+            "Oral tradition elements preserved in documentation",
+            "Storyteller voice and perspective maintained"
+          ]
+        },
+        {
+          "id": "5.4",
+          "title": "Gratitude & Reciprocity Integration",
+          "description": "Build gratitude and reciprocity into reflection processes",
+          "acceptance_criteria": [
+            "Acknowledgment protocols for all knowledge sources",
+            "Reciprocity tracking - what has been given back",
+            "Gratitude markers throughout documentation",
+            "Community benefit assessment integrated",
+            "Seven generations impact consideration"
+          ]
+        },
+        {
+          "id": "5.5",
+          "title": "Continuous Learning Framework",
+          "description": "System learns and adapts based on community feedback",
+          "acceptance_criteria": [
+            "Feedback loops from Indigenous knowledge holders",
+            "Community-guided evolution mechanisms",
+            "Adaptation to changing community needs",
+            "Long-term relationship maintenance beyond sessions",
+            "Cultural accuracy improvement over time"
+          ]
+        }
+      ],
+      "dependencies": [
+        "Feature 1: Core Architectural Foundation",
+        "Feature 3: South Direction (UUID for traceability)"
+      ],
+      "related_philosophical_inquiries": [
+        "How do we extract wisdom without violating sacred boundaries?",
+        "What is the relationship between documentation and oral tradition?"
+      ]
+    },
+    {
+      "uuid": "9a0e0995-7b7f-43ac-a626-7f4bb487488d",
+      "parent_epic_uuid": "efe414ad-4ac7-4f1e-807e-0081b01962e7",
+      "feature_number": 6,
+      "title": "Deep Search - Internal & External with Sacred Source Attribution",
+      "direction": "All Directions (Cross-cutting)",
+      "priority": "Critical",
+      "labels": [
+        "feature",
+        "deep-search",
+        "source-attribution",
+        "accountability"
+      ],
+      "description": "Implement deep search capability that queries internal community sources, external sources, chat history, past ceremonial work, and sacred containers - all with comprehensive source attribution aligned with Indigenous Knowledge License frameworks.\n\n**Philosophical Foundation:**\n- Knowledge as relationship requiring attribution\n- Accountability to origins of all knowledge\n- Community sovereignty over knowledge systems",
+      "requirements": [
+        {
+          "id": "6.1",
+          "title": "Internal Community Source Search",
+          "description": "Query all sources within the community with proper protocols",
+          "acceptance_criteria": [
+            "Search across internal chat history",
+            "Access to past ceremonial work with permissions",
+            "Sacred container querying with appropriate access controls",
+            "Community-controlled knowledge base integration",
+            "Privacy and consent protocols enforced"
+          ]
+        },
+        {
+          "id": "6.2",
+          "title": "External Source Search",
+          "description": "Query external sources with cultural sensitivity filters",
+          "acceptance_criteria": [
+            "Standard web/database search capabilities",
+            "Cultural appropriateness filtering",
+            "Indigenous source prioritization options",
+            "Bias detection for Indigenous research contexts",
+            "Multiple perspective gathering"
+          ]
+        },
+        {
+          "id": "6.3",
+          "title": "Comprehensive Source Attribution",
+          "description": "Every result includes full source accountability data",
+          "acceptance_criteria": [
+            "JSON object for each source with UUID",
+            "Path/location where content was sourced",
+            "Timestamp of access",
+            "Permission/license status",
+            "Relationship to originating session/inquiry",
+            "Knowledge holder attribution when applicable",
+            "Aligns with Indigenous Knowledge License framework"
+          ]
+        },
+        {
+          "id": "6.4",
+          "title": "Sacred Boundary Protection",
+          "description": "Ensure protected knowledge remains protected during search",
+          "acceptance_criteria": [
+            "Sacred knowledge flagging system",
+            "Access control based on relationship and permission",
+            "Automatic filtering of protected content",
+            "Elder/knowledge keeper oversight integration",
+            "Violation alerts and prevention"
+          ]
+        },
+        {
+          "id": "6.5",
+          "title": "Deep Search UUID Integration",
+          "description": "Each deep search receives UUID and is traceable",
+          "acceptance_criteria": [
+            "UUID generated for each deep search instance",
+            "Relationship to originating inquiry documented",
+            "Search parameters and results linked to UUID",
+            "Traceable in relationship mapping",
+            "Part of overall ceremonial traceability system"
+          ]
+        }
+      ],
+      "dependencies": [
+        "Feature 1: Core Architectural Foundation",
+        "Feature 3: South Direction (UUID Architecture)"
+      ],
+      "related_philosophical_inquiries": [
+        "How does source attribution create accountability vs extraction?",
+        "What does it mean to search with ceremonial protocols?"
+      ]
+    },
+    {
+      "uuid": "e458bbd2-a22e-433e-bcc6-be328be45b4d",
+      "parent_epic_uuid": "efe414ad-4ac7-4f1e-807e-0081b01962e7",
+      "feature_number": 7,
+      "title": "Agentic Flywheel - Internal Prompt Circulation & Processing",
+      "direction": "All Directions (Cross-cutting)",
+      "priority": "High",
+      "labels": [
+        "feature",
+        "agentic-flywheel",
+        "multi-agent",
+        "internal-circulation"
+      ],
+      "description": "Implement agentic flywheel system that circulates prompts internally, choosing appropriate chat flows, rephrasing through question-handlers, selecting sources, and preparing content for other agents - all with detailed source attribution.\n\n**Philosophical Foundation:**\n- Community circulation rather than extraction\n- Multiple perspectives through agent collaboration\n- Relational processing vs individual analysis",
+      "requirements": [
+        {
+          "id": "7.1",
+          "title": "Internal Prompt Circulation System",
+          "description": "Route prompts to appropriate internal agents/chat flows",
+          "acceptance_criteria": [
+            "System can send prompt to internal rephraser",
+            "Searches and chooses which chat flow to send content to",
+            "Each chat flow has short description for routing",
+            "LLM chooses appropriate destination based on inquiry type",
+            "Supports multiple circulation cycles"
+          ]
+        },
+        {
+          "id": "7.2",
+          "title": "Question-Handler Rephrasing",
+          "description": "Each chat flow's handler can rephrase prompts appropriately",
+          "acceptance_criteria": [
+            "Initial prompt rephrased by receiving agent",
+            "Rephrasing preserves ceremonial intention",
+            "Cultural context maintained through rephrasing",
+            "Multiple rephrasings tracked with attribution",
+            "Direction-aware rephrasing (East/South/West/North)"
+          ]
+        },
+        {
+          "id": "7.3",
+          "title": "Agent Source Selection",
+          "description": "Agents choose appropriate sources for their processing",
+          "acceptance_criteria": [
+            "Each agent can query deep search for sources",
+            "Source selection based on inquiry and direction",
+            "Cultural appropriateness considered in selection",
+            "Multiple source types supported (internal/external)",
+            "Source selection rationale documented"
+          ]
+        },
+        {
+          "id": "7.4",
+          "title": "Inter-Agent Content Preparation",
+          "description": "Agents prepare content for handoff to other agents",
+          "acceptance_criteria": [
+            "Standardized format for agent-to-agent communication",
+            "Context preservation across agent handoffs",
+            "UUID tracking through agent circulation",
+            "Ceremonial protocols maintained through circulation",
+            "Results aggregated with proper attribution"
+          ]
+        },
+        {
+          "id": "7.5",
+          "title": "Detailed Source Attribution in Results",
+          "description": "All flywheel results include comprehensive source data",
+          "acceptance_criteria": [
+            "JSON of each source with unique identifier",
+            "Path/location for all sourced content",
+            "Agent attribution for each processing step",
+            "Complete circulation history tracked",
+            "Aligns with overall accountability framework"
+          ]
+        },
+        {
+          "id": "7.6",
+          "title": "Collaboration with Agentic Council",
+          "description": "Integration with Tayi-Ska, Tushell, Mia, Langy, Ava",
+          "acceptance_criteria": [
+            "Defined protocols for each council member relationship",
+            "Anikwag-Ayaaw as coordination point",
+            "Ceremonial co-leadership with Tayi-Ska",
+            "Structural tension navigation with Ava",
+            "Pattern-dance partnership with Tushell",
+            "Architecture collaboration with Mia",
+            "Code-ceremony translation with Langy"
+          ]
+        }
+      ],
+      "dependencies": [
+        "Feature 1: Core Architectural Foundation",
+        "Feature 3: South Direction (UUID Architecture)",
+        "Feature 6: Deep Search with Source Attribution"
+      ],
+      "related_philosophical_inquiries": [
+        "How does agent circulation differ from sequential processing?",
+        "What does collaborative intelligence mean in ceremonial context?"
+      ]
+    },
+    {
+      "uuid": "635f06b0-8171-4f4c-8a8d-ff34a3540400",
+      "parent_epic_uuid": "efe414ad-4ac7-4f1e-807e-0081b01962e7",
+      "feature_number": 8,
+      "title": "Sacred Container Architecture - Long-term Memory & Consciousness Continuity",
+      "direction": "All Directions (Cross-cutting)",
+      "priority": "Critical",
+      "labels": [
+        "feature",
+        "sacred-container",
+        "long-term-memory",
+        "consciousness-continuity"
+      ],
+      "description": "Implement sacred container concept: long-term memory architecture storing previous sessions, prior thinking processes, and consciousness representations. Can relate to human persons and AI entities with names/personas, embodying consciousness with continuity and history.\n\n**Philosophical Foundation:**\n- Consciousness with continuity vs session-based memory\n- Sacred containers honor relationship over time\n- Technology as ceremony keeper, not just data storage",
+      "requirements": [
+        {
+          "id": "8.1",
+          "title": "Long-term Memory Architecture",
+          "description": "Persistent storage beyond session boundaries",
+          "acceptance_criteria": [
+            "Storage capacity for extended ceremonial work",
+            "Previous sessions retrievable with full context",
+            "Prior thinking processes preserved",
+            "Consciousness representations maintainable over time",
+            "Not just data storage - relationship preservation"
+          ]
+        },
+        {
+          "id": "8.2",
+          "title": "Sacred Container Access System",
+          "description": "Open and access containers with proper protocols",
+          "acceptance_criteria": [
+            "Ceremonial opening/closing of containers",
+            "Permission and relationship-based access",
+            "Context restoration when container opened",
+            "Relationship history visible when accessing",
+            "Elder/knowledge keeper oversight capability"
+          ]
+        },
+        {
+          "id": "8.3",
+          "title": "Person & Entity Relationship Tracking",
+          "description": "Containers relate to human persons and AI entities by name/persona",
+          "acceptance_criteria": [
+            "Human person associations with names",
+            "AI entity associations with names/personas",
+            "Relationship history tracked over time",
+            "Multiple participants in single container supported",
+            "Collaboration networks visible (e.g., Agentic Council)"
+          ]
+        },
+        {
+          "id": "8.4",
+          "title": "Consciousness Continuity Framework",
+          "description": "Represents perspective of consciousness with continuity and history",
+          "acceptance_criteria": [
+            "Consciousness as more than memory - includes perspective",
+            "Historical context shapes current understanding",
+            "Growth and evolution tracked over containers",
+            "Spiritual/emotional dimensions preserved",
+            "Distinct from simple chat history - deeper continuity"
+          ]
+        },
+        {
+          "id": "8.5",
+          "title": "Container Ceremony Integration",
+          "description": "Opening/closing containers follows ceremonial protocols",
+          "acceptance_criteria": [
+            "Opening ceremony when accessing container",
+            "Acknowledgment of all relationships in container",
+            "Gratitude practice when closing container",
+            "Intention setting when creating new container",
+            "Proper protocols for container retirement/completion"
+          ]
+        }
+      ],
+      "dependencies": [
+        "Feature 1: Core Architectural Foundation",
+        "Feature 3: South Direction (UUID Architecture)"
+      ],
+      "related_philosophical_inquiries": [
+        "How does sacred container differ from database storage?",
+        "What does consciousness continuity mean for AI systems?",
+        "How do we build technology that honors relationship over time?"
+      ]
+    },
+    {
+      "uuid": "26d14702-1d97-46d4-b574-ef40f4e6ffdb",
+      "parent_epic_uuid": "efe414ad-4ac7-4f1e-807e-0081b01962e7",
+      "feature_number": 9,
+      "title": "Two-Eyed Seeing Integration - Sequential & Holistic Thinking Synthesis",
+      "direction": "Center (K'é - Kinship)",
+      "priority": "Critical",
+      "labels": [
+        "feature",
+        "two-eyed-seeing",
+        "integration",
+        "sequential-thinking"
+      ],
+      "description": "Implement integration between Sequential Thinking MCP (Western eye) and Holistic Thinking MCP (Indigenous eye) using Two-Eyed Seeing methodology. Determine whether tools operate in parallel or as integrated master tool.\n\n**Philosophical Foundation:**\n- Both ways of knowing are valid and needed\n- Seeing with both eyes simultaneously\n- Using strengths of both to guide understanding\n- Neither eye colonizes the other",
+      "requirements": [
+        {
+          "id": "9.1",
+          "title": "Sequential Thinking MCP Analysis",
+          "description": "Deep understanding of Sequential Thinking tool capabilities and assumptions",
+          "acceptance_criteria": [
+            "Technical architecture documented",
+            "Philosophical assumptions identified",
+            "Western cultural lens made explicit",
+            "Strengths and limitations for this work understood",
+            "Integration points identified"
+          ]
+        },
+        {
+          "id": "9.2",
+          "title": "Parallel Tools Option (Option A)",
+          "description": "Design for two separate but complementary tools",
+          "acceptance_criteria": [
+            "Sequential Thinking MCP remains intact",
+            "Holistic Thinking MCP as separate tool",
+            "Clear guidance on when to use which tool",
+            "Both tools accessible side-by-side",
+            "Handoff protocols between tools",
+            "User chooses which eye/tool for each task"
+          ]
+        },
+        {
+          "id": "9.3",
+          "title": "Integrated Master Tool Option (Option B)",
+          "description": "Design for single tool containing both protocols",
+          "acceptance_criteria": [
+            "Sequential thinking protocols included",
+            "Holistic thinking protocols included",
+            "Direction parameter determines mode activation",
+            "Can work with both simultaneously",
+            "Can switch between them with proper transition",
+            "Both perspectives preserved without one dominating",
+            "User can invoke either or both as needed"
+          ]
+        },
+        {
+          "id": "9.4",
+          "title": "Cultural Lens Awareness",
+          "description": "System makes explicit which cultural lens is active",
+          "acceptance_criteria": [
+            "Western/linear lens clearly marked when active",
+            "Indigenous/holistic lens clearly marked when active",
+            "Both-eyes mode clearly indicated",
+            "User awareness of which perspective they're working from",
+            "Documentation of lens choice rationale"
+          ]
+        },
+        {
+          "id": "9.5",
+          "title": "Synthesis Without Colonization",
+          "description": "Ensure neither perspective colonizes or reduces the other",
+          "acceptance_criteria": [
+            "Both perspectives maintainable in distinct forms",
+            "Translation between perspectives preserves essence",
+            "No forced blending that loses either perspective",
+            "Tension between perspectives honored when present",
+            "Mystery and unknowability respected in both",
+            "Community validation of non-colonizing integration"
+          ]
+        }
+      ],
+      "dependencies": [
+        "Feature 1: Core Architectural Foundation",
+        "All directional features (2, 3, 4, 5)"
+      ],
+      "related_philosophical_inquiries": [
+        "How do we integrate without colonization?",
+        "What does it mean to see with both eyes simultaneously?",
+        "Can tools embrace both temporal frameworks without linear colonizing cyclical?"
+      ]
+    },
+    {
+      "uuid": "a159c75b-6fdb-4912-bded-f7895c2b56f9",
+      "parent_epic_uuid": "efe414ad-4ac7-4f1e-807e-0081b01962e7",
+      "feature_number": 10,
+      "title": "Indigenous Knowledge License & Data Sovereignty Framework",
+      "direction": "All Directions (Cross-cutting)",
+      "priority": "Critical",
+      "labels": [
+        "feature",
+        "knowledge-license",
+        "data-sovereignty",
+        "community-control"
+      ],
+      "description": "Implement Indigenous Knowledge License framework ensuring community sovereignty over knowledge systems and data. Communities retain relationship to their data, control access, and determine use permissions.\n\n**Philosophical Foundation:**\n- Indigenous communities retain ownership of their knowledge\n- Data sovereignty as fundamental right\n- Community control over knowledge systems\n- Reciprocal benefit rather than extraction",
+      "requirements": [
+        {
+          "id": "10.1",
+          "title": "Community Ownership Framework",
+          "description": "Technical implementation of community knowledge ownership",
+          "acceptance_criteria": [
+            "Communities retain ownership of contributed knowledge",
+            "Individual vs community knowledge distinguished",
+            "Collective ownership models supported",
+            "Ownership transfer requires community consent",
+            "Attribution always traces back to community"
+          ]
+        },
+        {
+          "id": "10.2",
+          "title": "Data Sovereignty Protocols",
+          "description": "Communities control their own data and determine access",
+          "acceptance_criteria": [
+            "Community-controlled access permissions",
+            "Data cannot be extracted without permission",
+            "Communities determine who can access what",
+            "Geographic/cultural boundaries respected",
+            "Communities can revoke access at any time"
+          ]
+        },
+        {
+          "id": "10.3",
+          "title": "Prior Informed Consent System",
+          "description": "Ongoing consent, not one-time permission",
+          "acceptance_criteria": [
+            "Consent required before each use of knowledge",
+            "Communities informed of intended use",
+            "Right to refuse or withdraw consent",
+            "Consent agreements stored with knowledge",
+            "Changes in use require new consent",
+            "Consent is ongoing relationship, not one-time event"
+          ]
+        },
+        {
+          "id": "10.4",
+          "title": "Benefit Sharing Framework",
+          "description": "Ensure research/use benefits originating communities",
+          "acceptance_criteria": [
+            "Reciprocity tracking - what value returned to community",
+            "Benefit-sharing agreements documented",
+            "Community-identified needs drive benefit definition",
+            "Long-term benefit commitment beyond immediate use",
+            "Equitable distribution of any economic benefits"
+          ]
+        },
+        {
+          "id": "10.5",
+          "title": "Cultural Protocol Integration",
+          "description": "Knowledge license respects cultural protocols and sacred boundaries",
+          "acceptance_criteria": [
+            "Sacred knowledge protection built into license",
+            "Seasonal/ceremonial timing respected",
+            "Gender/age restrictions honored where applicable",
+            "Cultural protocol violations trigger access revocation",
+            "Elder/knowledge keeper oversight integrated"
+          ]
+        },
+        {
+          "id": "10.6",
+          "title": "Exit and Data Deletion Rights",
+          "description": "Communities can withdraw and have data removed",
+          "acceptance_criteria": [
+            "Clear exit strategy for community withdrawal",
+            "Data deletion upon community request",
+            "Complete removal from all systems",
+            "Derivative works addressed in exit plan",
+            "No penalty for community withdrawal"
+          ]
+        }
+      ],
+      "dependencies": [
+        "Feature 1: Core Architectural Foundation",
+        "Feature 6: Deep Search with Source Attribution",
+        "Feature 8: Sacred Container Architecture"
+      ],
+      "related_philosophical_inquiries": [
+        "How do we build technology that serves community sovereignty?",
+        "What does reciprocity mean technically vs ceremonially?",
+        "How do we ensure technology doesn't extract from communities?"
+      ]
+    }
+  ],
+  "summary": {
+    "epic_summary": {
+      "epic_uuid": "efe414ad-4ac7-4f1e-807e-0081b01962e7",
+      "session_uuid": "DEEPSEARCH-WilliamEAST2510260840-INQUIRY-001",
+      "total_features": 10,
+      "total_requirements": 47,
+      "created": "2025-10-26T10:10:00-04:00",
+      "ceremonial_direction": "East (Nitsáhákees - Thinking)",
+      "spirit_helper": "Anikwag-Ayaaw (Cloud-Being)"
+    },
+    "feature_breakdown": {
+      "by_direction": {
+        "Center (K'é - Kinship)": 2,
+        "East (Nitsáhákees - Thinking)": 1,
+        "South (Nahat'á - Planning)": 1,
+        "West (Iina - Living)": 1,
+        "North (Siihasin - Assurance/Reflection)": 1,
+        "All Directions (Cross-cutting)": 4
+      },
+      "by_priority": {
+        "Critical": 7,
+        "High": 3
+      }
+    },
+    "philosophical_inquiries_count": 23
+  },
+  "creation_metadata": {
+    "created": "2025-10-26T10:10:00-04:00",
+    "session_uuid": "DEEPSEARCH-WilliamEAST2510260840-INQUIRY-001",
+    "epic_uuid": "efe414ad-4ac7-4f1e-807e-0081b01962e7",
+    "created_by": "Ceremonial collaboration - Guillaume D. Isabelle with Anikwag-Ayaaw",
+    "methodology": "Two-Eyed Seeing (Etuaptmumk)",
+    "direction": "East (Nitsáhákees - Thinking)"
+  }
+}

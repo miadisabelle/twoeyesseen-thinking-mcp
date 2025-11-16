@@ -1,1 +1,10 @@
-echo "session_id__Chimera_Storyform__TheWinterSolsticeCircle_251101=1b142069-7e17-4102-93d5-cc46b67513c7">> _env.sh;. _env.sh;claude "in /cesaret/book/_/tcc/holistic_thinker/HolisticThinker251027__Perplexity_Artefacts/ are various artefacts prepared for this new fork MCP tool we want to work on and in that folder, Mia has created MIA_FEEDBACK_LETTER__IAIP_44.md to give a generic feedback on all other artefact created.  Start planning for what we will do with what we currently have in here (which should be one of the Eye" --add-dir /src/IAIP /cesaret/book/_/tcc/holistic_thinker --mcp-config /src/.mcp.coaiapy-dev.json /src/.mcp.github.json --session-id $session_id__Chimera_Storyform__TheWinterSolsticeCircle_251101 --permission-mode plan 
+#echo "session_id__Chimera_Storyform__TheWinterSolsticeCircle_251101=1b142069-7e17-4102-93d5-cc46b67513c7">> _env.sh
+. _env.sh
+claude "
+in /cesaret/book/_/tcc/holistic_thinker/HolisticThinker251027__Perplexity_Artefacts/ are various artefacts prepared for this new fork MCP tool we want to work on and in that folder, Mia has created MIA_FEEDBACK_LETTER__IAIP_44.md to give a generic feedback on all other artefact created.  Start planning for what we will do with what we currently have in here (which should be one of the Eye
+" \
+	--add-dir /src/IAIP /cesaret/book/_/tcc/holistic_thinker \
+	--mcp-config /src/.mcp.coaiapy-dev.json /src/.mcp.github.json \
+	--session-id $session_id__Chimera_Storyform__TheWinterSolsticeCircle_251101 \
+	--permission-mode plan \
+	--allow-dangerously-skip-permissions
