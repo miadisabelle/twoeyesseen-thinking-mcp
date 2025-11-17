@@ -1,20 +1,57 @@
-# Two-Eyed Seen Thinking MCP Server - miadisabelle
+# Two-Eyed Seeing Thinking MCP Server - miadisabelle
 
 [![NPM Version](https://img.shields.io/npm/v/twoeyesseen-thinking-mcp.svg)](https://www.npmjs.com/package/twoeyesseen-thinking-mcp)
 [![Docker Hub](https://img.shields.io/docker/pulls/miadisabelle/twoeyesseen-thinking-mcp.svg)](https://hub.docker.com/r/miadisabelle/twoeyesseen-thinking-mcp)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-> **Note**: This MCP server integrates Two-Eyed Seeing for dynamic and reflective problem-solving, blending Western sequential thinking with Indigenous holistic wisdom and ceremonial protocols. It is inspired by the Chimera Storyform and Narrative Context Protocol.
+> **✨ v2.0 Now Available**: Four Directions Ceremonial Thinking with Indigenous Personas!
 
-An MCP server implementation that provides a tool for dynamic and reflective problem-solving through a structured thinking process. This server enables AI agents to break down complex problems into manageable, trackable steps with support for revision and branching, now enriched with holistic perspectives.
+**Two-Eyed Seeing MCP Server** integrates Western sequential thinking with Indigenous holistic wisdom and ceremonial protocols. Inspired by the Chimera Storyform and Narrative Context Protocol.
+
+## What's New in v2.0
+
+🦅 **Four Directions Ceremonial Thinking** - Think holistically through ceremony with Indigenous personas:
+- **North (🦅 Elder Wisdom Keeper)**: Deep time perspective, wisdom, protocols
+- **East (🌸 Youth Visionary)**: Innovation, fresh questions, possibility
+- **South (🎨 Artist Storyteller)**: Narrative, connection, patterns
+- **West (🐻 Ceremonial Leader)**: Sacred protocols, transformation, mystery
+- **Center (🕸️ Knowledge Holder)**: Integration, balance, relational accountability
+
+See **[CEREMONY_USAGE_EXAMPLES.md](./CEREMONY_USAGE_EXAMPLES.md)** for complete guide.
+
+## Two Servers, Two Ways of Thinking
+
+This package now includes **two MCP servers**:
+
+### 1. Sequential Thinking Server (v1.x - Original)
+**Western analytical approach** - Step-by-step problem-solving
+- Command: `twoeyesseen-thinking-mcp`
+- Tool: `sequentialthinking`
+- Best for: Analytical breakdown, implementation details
+
+### 2. Ceremonial Thinking Server (v2.0 - **NEW**)
+**Indigenous holistic approach** - Four Directions ceremony
+- Command: `twoeyesseen-ceremony-mcp`
+- Tools: `four_directions_thinking`, `embody_persona`
+- Best for: Complex decisions, holistic perspective, ceremonial awareness
+
+**Use them together**: Start with ceremony for holistic view, then sequential for implementation.
 
 ## Features
 
+### Sequential Thinking (v1.x)
 - Break down complex problems into manageable steps
 - Revise and refine thoughts as understanding deepens
 - Branch into alternative paths of reasoning
 - Adjust the total number of thoughts dynamically
 - Generate and verify solution hypotheses
+
+### Ceremonial Thinking (v2.0 - **NEW**)
+- Journey through all Four Directions with Indigenous personas
+- Holistic thinking that prevents Western archetype contamination
+- Sacred Container protocols (silence honoring, vulnerability support)
+- Persona integrity checking (detects Western bias patterns)
+- Integration of all perspectives at center
 
 ## Tool
 
@@ -47,11 +84,55 @@ The Sequential Thinking tool is designed for:
 
 ### Installation via NPM (Recommended)
 
-Add this to your `claude_desktop_config.json`:
+#### For Ceremonial Thinking (v2.0 - **RECOMMENDED**)
+
+Add to your `claude_desktop_config.json`:
 
 ```json
 {
   "mcpServers": {
+    "twoeyesseen-ceremony": {
+      "command": "npx",
+      "args": ["-y", "twoeyesseen-thinking-mcp@latest", "ceremony"]
+    }
+  }
+}
+```
+
+Then ask Claude:
+```
+"Please use the four_directions_thinking tool to help me think holistically
+about this decision."
+```
+
+See **[CEREMONY_USAGE_EXAMPLES.md](./CEREMONY_USAGE_EXAMPLES.md)** for full usage guide.
+
+#### For Sequential Thinking (v1.x - Original)
+
+Add to your `claude_desktop_config.json`:
+
+```json
+{
+  "mcpServers": {
+    "twoeyesseen-thinking": {
+      "command": "npx",
+      "args": ["-y", "twoeyesseen-thinking-mcp"]
+    }
+  }
+}
+```
+
+#### Use Both Together
+
+Add both servers for complete Two-Eyed Seeing:
+
+```json
+{
+  "mcpServers": {
+    "twoeyesseen-ceremony": {
+      "command": "npx",
+      "args": ["-y", "twoeyesseen-thinking-mcp@latest", "ceremony"]
+    },
     "twoeyesseen-thinking": {
       "command": "npx",
       "args": ["-y", "twoeyesseen-thinking-mcp"]
