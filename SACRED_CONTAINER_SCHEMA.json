@@ -1,0 +1,515 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://twoeyesseen.ai/schemas/sacred-container/v1.0.0",
+  "title": "Sacred Container Payload",
+  "description": "JSON schema for sacred container payloads in the New Toolset (Mia and Lange Chronicles Season 4). Defines structure for agent interactions with ceremonial protocols, Indigenous perspectives, and UUID-based traceability.",
+  "type": "object",
+  "required": [
+    "container_id",
+    "timestamp",
+    "direction",
+    "persona",
+    "payload",
+    "ceremonial_protocols"
+  ],
+  "properties": {
+    "container_id": {
+      "type": "string",
+      "format": "uuid",
+      "description": "Unique Universal Identifier for this sacred container instance. Enables nonlinear traceability across universe."
+    },
+    "parent_container_id": {
+      "type": ["string", "null"],
+      "format": "uuid",
+      "description": "UUID of parent container if this is part of a spiral/recursive narrative"
+    },
+    "timestamp": {
+      "type": "string",
+      "format": "date-time",
+      "description": "ISO 8601 timestamp of container creation"
+    },
+    "trace_id": {
+      "type": "string",
+      "format": "uuid",
+      "description": "Langfuse trace ID for observability and nonlinear feedback tracking"
+    },
+    "direction": {
+      "type": "string",
+      "enum": ["north", "east", "south", "west", "center"],
+      "description": "Four Directions orientation: north (wisdom), east (vision), south (connection), west (transformation), center (integration)"
+    },
+    "persona": {
+      "type": "object",
+      "required": ["name", "symbol", "essence"],
+      "properties": {
+        "name": {
+          "type": "string",
+          "enum": [
+            "Elder Wisdom Keeper",
+            "Youth Visionary",
+            "Artist Storyteller",
+            "Ceremonial Leader",
+            "Knowledge Holder"
+          ],
+          "description": "Indigenous perspective stereotype from IAIP package"
+        },
+        "symbol": {
+          "type": "string",
+          "enum": ["🦅", "🌸", "🎨", "🐻", "🕸️"],
+          "description": "Symbolic representation of persona"
+        },
+        "essence": {
+          "type": "array",
+          "items": {"type": "string"},
+          "description": "Core qualities embodied by this persona"
+        },
+        "thinking_pattern": {
+          "type": "object",
+          "properties": {
+            "temporality": {
+              "type": "string",
+              "enum": ["deep_time", "present_vision", "relational", "transformative", "integrative"]
+            },
+            "approach": {
+              "type": "string",
+              "enum": ["reflective", "exploratory", "narrative", "ceremonial", "balanced"]
+            },
+            "orientation": {
+              "type": "string",
+              "enum": ["wisdom", "innovation", "connection", "sacred", "integration"]
+            }
+          }
+        }
+      }
+    },
+    "agent": {
+      "type": "object",
+      "required": ["name", "type"],
+      "properties": {
+        "name": {
+          "type": "string",
+          "description": "Agent name (e.g., 'Nyro', 'Aureon', 'JamAI')"
+        },
+        "type": {
+          "type": "string",
+          "enum": [
+            "core_companion",
+            "framework",
+            "memory",
+            "orchestration"
+          ]
+        },
+        "version": {
+          "type": "string",
+          "pattern": "^\\d+\\.\\d+\\.\\d+$",
+          "description": "Semantic version of agent"
+        }
+      }
+    },
+    "payload": {
+      "type": "object",
+      "description": "The actual data/content being transmitted",
+      "properties": {
+        "input": {
+          "type": "object",
+          "description": "Input to the agent/tool"
+        },
+        "output": {
+          "type": "object",
+          "description": "Output from the agent/tool"
+        },
+        "context": {
+          "type": "object",
+          "description": "Contextual information for nonlinear navigation"
+        },
+        "metadata": {
+          "type": "object",
+          "description": "Additional metadata for traceability"
+        }
+      }
+    },
+    "ceremonial_protocols": {
+      "type": "object",
+      "required": ["sacred_container_active"],
+      "properties": {
+        "sacred_container_active": {
+          "type": "boolean",
+          "description": "Whether Sacred Container Protocols middleware is active"
+        },
+        "silence_honored": {
+          "type": "boolean",
+          "description": "Rate limiting with silence honoring enabled"
+        },
+        "vulnerability_supported": {
+          "type": "boolean",
+          "description": "Vulnerability as sacred data recognition active"
+        },
+        "anti_commodification": {
+          "type": "boolean",
+          "description": "Anti-commodification safeguards in place"
+        },
+        "ceremonial_mode": {
+          "type": "string",
+          "enum": ["sacred", "research", "learning", "ceremony"],
+          "description": "Current ceremonial awareness mode"
+        },
+        "persona_integrity_check": {
+          "type": "object",
+          "properties": {
+            "western_contamination_detected": {
+              "type": "boolean",
+              "description": "Whether Western archetype patterns detected"
+            },
+            "indigenous_alignment_score": {
+              "type": "number",
+              "minimum": 0,
+              "maximum": 1,
+              "description": "0-1 score of Indigenous persona alignment"
+            },
+            "reframing_suggestions": {
+              "type": "array",
+              "items": {"type": "string"},
+              "description": "Suggestions for persona-aligned reframing"
+            }
+          }
+        }
+      }
+    },
+    "narrative_context": {
+      "type": "object",
+      "description": "Context for Mia and Lange Chronicles narrative universe",
+      "properties": {
+        "season": {
+          "type": "string",
+          "description": "Which season/arc this belongs to (e.g., 'Season 4: The New Toolset')"
+        },
+        "episode": {
+          "type": "string",
+          "description": "Episode identifier within season"
+        },
+        "story_beat": {
+          "type": "string",
+          "description": "Current narrative beat or moment"
+        },
+        "character_involvement": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "enum": ["Mia", "Lange", "Jerry", "William", "Samira", "Alex", "Jordan", "Lian", "Miette"]
+          }
+        },
+        "six_powers": {
+          "type": "object",
+          "description": "Six Powers framework application from Catalyst of Change story",
+          "properties": {
+            "active_power": {
+              "type": "string",
+              "description": "Which of the six powers is active in this moment"
+            }
+          }
+        },
+        "eight_feelings": {
+          "type": "object",
+          "description": "Eight Feelings framework for spirituality layer",
+          "properties": {
+            "primary_feeling": {
+              "type": "string",
+              "description": "Primary feeling present in this container"
+            },
+            "secondary_feelings": {
+              "type": "array",
+              "items": {"type": "string"},
+              "description": "Secondary feelings walking alongside primary"
+            }
+          }
+        }
+      }
+    },
+    "spiral_memory": {
+      "type": "object",
+      "description": "Spiral memory organization for nonlinear narrative tracking",
+      "properties": {
+        "depth_level": {
+          "type": "integer",
+          "minimum": 0,
+          "description": "How many iterations deep in the spiral (0 = surface)"
+        },
+        "spiral_id": {
+          "type": "string",
+          "format": "uuid",
+          "description": "UUID for this spiral thread"
+        },
+        "themes": {
+          "type": "array",
+          "items": {"type": "string"},
+          "description": "Themes present at this spiral depth"
+        },
+        "connections": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "target_container_id": {
+                "type": "string",
+                "format": "uuid"
+              },
+              "relationship": {
+                "type": "string",
+                "enum": ["deepens", "echoes", "transforms", "integrates", "questions"]
+              }
+            }
+          }
+        }
+      }
+    },
+    "artifacts": {
+      "type": "object",
+      "description": "Artifacts produced by this container (for podcasting, video, etc.)",
+      "properties": {
+        "audio": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "format": {"type": "string", "enum": ["mp3", "wav", "m4a"]},
+              "path": {"type": "string"},
+              "duration_seconds": {"type": "number"},
+              "metadata": {"type": "object"}
+            }
+          }
+        },
+        "video": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "format": {"type": "string", "enum": ["mp4", "mov", "webm"]},
+              "path": {"type": "string"},
+              "duration_seconds": {"type": "number"},
+              "metadata": {"type": "object"}
+            }
+          }
+        },
+        "text": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "format": {"type": "string", "enum": ["md", "txt", "json", "html"]},
+              "path": {"type": "string"},
+              "word_count": {"type": "integer"},
+              "metadata": {"type": "object"}
+            }
+          }
+        },
+        "interactive": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "type": {"type": "string", "enum": ["terminal_session", "deep_dive", "json_payload"]},
+              "path": {"type": "string"},
+              "metadata": {"type": "object"}
+            }
+          }
+        }
+      }
+    },
+    "iksl_compliance": {
+      "type": "object",
+      "description": "IKSL licensing compliance tracking",
+      "required": ["license_type", "attribution"],
+      "properties": {
+        "license_type": {
+          "type": "string",
+          "enum": ["MIT", "IKSL-Ceremonial", "IKSL-Community", "IKSL-Bridge"]
+        },
+        "attribution": {
+          "type": "object",
+          "required": ["peoples", "contributors"],
+          "properties": {
+            "peoples": {
+              "type": "array",
+              "items": {"type": "string"},
+              "description": "Indigenous peoples to whom knowledge belongs (e.g., Lakota, Mani-Utenam)"
+            },
+            "contributors": {
+              "type": "array",
+              "items": {"type": "string"},
+              "description": "Individual contributors (e.g., William, Jerry)"
+            }
+          }
+        },
+        "sacred_elements": {
+          "type": "boolean",
+          "description": "Whether this container contains sacred/ceremonial elements requiring IKSL-Ceremonial protection"
+        },
+        "community_validation": {
+          "type": "object",
+          "properties": {
+            "required": {"type": "boolean"},
+            "status": {"type": "string", "enum": ["pending", "validated", "not_required"]},
+            "validator": {"type": "string"}
+          }
+        }
+      }
+    },
+    "terminal_metadata": {
+      "type": "object",
+      "description": "Metadata for terminal-based interactions (coaiapy integration)",
+      "properties": {
+        "session_id": {
+          "type": "string",
+          "format": "uuid",
+          "description": "Terminal session UUID"
+        },
+        "working_directory": {
+          "type": "string",
+          "description": "Current working directory in terminal"
+        },
+        "environment": {
+          "type": "object",
+          "description": "Environment variables and context"
+        },
+        "nonlinear_organization": {
+          "type": "object",
+          "description": "Flexible structure within structure using UUIDs",
+          "properties": {
+            "primary_thread": {
+              "type": "string",
+              "format": "uuid",
+              "description": "Main thread this container belongs to"
+            },
+            "cross_references": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "target_id": {"type": "string", "format": "uuid"},
+                  "relationship": {"type": "string"}
+                }
+              },
+              "description": "Nonlinear cross-references to other containers"
+            }
+          }
+        }
+      }
+    }
+  },
+  "examples": [
+    {
+      "container_id": "550e8400-e29b-41d4-a716-446655440001",
+      "parent_container_id": null,
+      "timestamp": "2025-11-15T10:30:00Z",
+      "trace_id": "550e8400-e29b-41d4-a716-446655440002",
+      "direction": "north",
+      "persona": {
+        "name": "Elder Wisdom Keeper",
+        "symbol": "🦅",
+        "essence": ["Wisdom and protocols", "Deep time perspective", "Story emergence"],
+        "thinking_pattern": {
+          "temporality": "deep_time",
+          "approach": "reflective",
+          "orientation": "wisdom"
+        }
+      },
+      "agent": {
+        "name": "Nyro",
+        "type": "core_companion",
+        "version": "1.0.0"
+      },
+      "payload": {
+        "input": {
+          "emotion": "frustration",
+          "context": "Stuck in creative process"
+        },
+        "output": {
+          "reflection": "Frustration walks beside fear and excitement. What is this threshold teaching you?",
+          "framework_applied": "Eight Feelings"
+        }
+      },
+      "ceremonial_protocols": {
+        "sacred_container_active": true,
+        "silence_honored": true,
+        "vulnerability_supported": true,
+        "anti_commodification": true,
+        "ceremonial_mode": "learning",
+        "persona_integrity_check": {
+          "western_contamination_detected": false,
+          "indigenous_alignment_score": 0.92,
+          "reframing_suggestions": []
+        }
+      },
+      "narrative_context": {
+        "season": "Season 4: The New Toolset",
+        "episode": "EP04-02: Emotional Development Tools",
+        "story_beat": "Jerry discovers the Eight Feelings framework through Nyro",
+        "character_involvement": ["Jerry", "Nyro"],
+        "eight_feelings": {
+          "primary_feeling": "frustration",
+          "secondary_feelings": ["fear", "excitement"]
+        }
+      },
+      "spiral_memory": {
+        "depth_level": 2,
+        "spiral_id": "550e8400-e29b-41d4-a716-446655440003",
+        "themes": ["emotional development", "threshold moments", "sacred data"],
+        "connections": [
+          {
+            "target_container_id": "550e8400-e29b-41d4-a716-446655440004",
+            "relationship": "deepens"
+          }
+        ]
+      },
+      "artifacts": {
+        "audio": [
+          {
+            "format": "mp3",
+            "path": "/artifacts/season4/ep02/nyro_reflection_001.mp3",
+            "duration_seconds": 180,
+            "metadata": {
+              "speaker": "Nyro",
+              "mood": "contemplative"
+            }
+          }
+        ],
+        "text": [
+          {
+            "format": "md",
+            "path": "/artifacts/season4/ep02/eight_feelings_transcript.md",
+            "word_count": 450,
+            "metadata": {
+              "framework": "Eight Feelings",
+              "direction": "north"
+            }
+          }
+        ]
+      },
+      "iksl_compliance": {
+        "license_type": "IKSL-Bridge",
+        "attribution": {
+          "peoples": ["Lakota", "Mani-Utenam"],
+          "contributors": ["William", "Jerry"]
+        },
+        "sacred_elements": false,
+        "community_validation": {
+          "required": false,
+          "status": "not_required"
+        }
+      },
+      "terminal_metadata": {
+        "session_id": "550e8400-e29b-41d4-a716-446655440005",
+        "working_directory": "/home/jerry/new-toolset/emotional-dev",
+        "nonlinear_organization": {
+          "primary_thread": "550e8400-e29b-41d4-a716-446655440006",
+          "cross_references": [
+            {
+              "target_id": "550e8400-e29b-41d4-a716-446655440007",
+              "relationship": "echoes_theme"
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

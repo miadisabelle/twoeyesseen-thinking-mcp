@@ -1,6 +1,6 @@
 {
   "name": "twoeyesseen-thinking-mcp",
-  "version": "1.0.1",
+  "version": "2.0.0",
   "description": "MCP server integrating Two-Eyed Seeing for dynamic and reflective problem-solving, blending Western sequential thinking with Indigenous holistic wisdom and ceremonial protocols. Inspired by the Chimera Storyform and Narrative Context Protocol.",
   "license": "MIT",
   "author": "miadisabelle",
@@ -26,7 +26,8 @@
   ],
   "type": "module",
   "bin": {
-    "twoeyesseen-thinking-mcp": "dist/index.js"
+    "twoeyesseen-thinking-mcp": "dist/index.js",
+    "twoeyesseen-ceremony-mcp": "dist/src/ceremonial-server.js"
   },
   "files": [
     "dist",
